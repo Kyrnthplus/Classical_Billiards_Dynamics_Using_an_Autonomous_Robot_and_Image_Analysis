@@ -1,27 +1,29 @@
-# Lemon Billiard - Projeto de Mestrado
+# Lemon Billiard - Master's Research Project
 
-Este repositório contém os arquivos de modelagem, circuitos, código do robô e pipeline de processamento de dados para o experimento de bilhar caótico (Lemon Billiard).
+This repository contains the modeling files, schematics, embedded robot control code, and processing pipeline for the chaotic lemon billiard experiment.
 
-## Estrutura do Repositório
+## Repository Structure
 
 ```text
 .
 ├── docs/
-│   ├── manuais/               # Manuais e especificações do robô
-│   ├── circuito/              # Esquemas e diagramas eletrônicos
-│   └── fluxograma.md          # Fluxograma do experimento em sintaxe Mermaid
+│   ├── manuals/               # Robot manuals and technical specifications
+│   ├── circuit/               # Electronic schematics and diagrams
+│   └── flowchart.md           # Experimental pipeline Mermaid flowchart
 ├── hardware/
-│   └── 3d_printing/           # Arquivos de modelagem (.stl) e parâmetros de fatiamento
-├── robot_software/            # Código-fonte embarcado de controle do robô
+│   └── 3d_printing/           # 3D modeling files (.stl) and slicing parameters
+├── robot_software/            # Embedded robot control source code
 └── data_pipeline/
-    ├── 01_frame_extractor/    # Conversão de frames de vídeo para dados de trajetória
-    ├── 02_collision_detector/ # Processamento de trajetórias para detecção de colisões
-    └── 03_analysis/           # Reconstrução do Espaço de Fase e cálculo do Expoente de Lyapunov
+    ├── 01_frame_extractor/    # Image processing: Video (Frames) -> Coordinates
+    ├── 02_collision_detector/ # Data processing: Trajectories -> Collisions
+    ├── 03_analysis/           # Nonlinear dynamics: Phase Space & Lyapunov Exponents
+    └── 04_simulator/          # Numerical simulation of the billiard trajectories
 ```
 
-## Fluxo de Dados Técnico
+## Scientific Data Flow
 
-1. **Captação**: O robô executa o experimento físico sob controle do firmware localizado em `robot_software/`.
-2. **Extração**: O módulo `data_pipeline/01_frame_extractor/` realiza o rastreamento planar a partir de gravações de vídeo, convertendo coordenadas visuais em séries temporais de trajetória.
-3. **Detecção**: O módulo `data_pipeline/02_collision_detector/` processa as descontinuidades vetoriais das séries temporais de trajetória para inferir os instantes e pontos exatos de colisão com as fronteiras do bilhar.
-4. **Análise Não-Linear**: O módulo `data_pipeline/03_analysis/` processa as coordenadas de colisão para efetuar a reconstrução do espaço de fase e estimar os expoentes de Lyapunov, quantificando a divergência caótica do sistema dinâmico.
+1. **Acquisition**: The robot executes the physical experiment under the control of the firmware located in `robot_software/`.
+2. **Extraction**: The `data_pipeline/01_frame_extractor/` module performs planar tracking on video frames, converting visual markers into time-series coordinates.
+3. **Detection**: The `data_pipeline/02_collision_detector/` module processes velocity discontinuities in coordinates to locate exact collision times and vectors.
+4. **Dynamics Analysis**: The `data_pipeline/03_analysis/` module uses collision states to reconstruct the phase space (Poincaré map) and compute the Lyapunov exponent, quantifying chaotic divergence.
+5. **Simulation**: The `data_pipeline/04_simulator/` module generates numerical trajectories to validate experimental observations.

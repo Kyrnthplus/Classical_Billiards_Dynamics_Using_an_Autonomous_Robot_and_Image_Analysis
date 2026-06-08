@@ -1,40 +1,41 @@
 import numpy as np
 from scipy.optimize import curve_fit
 
-def funcao_primeiro_grau(x1, y1, x2, y2):
+def fit_linear_function(x1, y1, x2, y2):
+    # Calculates slope and intercept for a 1D linear fit
     m = (y2 - y1) / (x2 - x1)
     c = y1 - m * x1
     return lambda x: m * x + c
 
-def produto_vetorial(v1, v2):
+def cross_product(v1, v2):
     if len(v1) != 2 or len(v2) != 2:
-        raise ValueError("Os vetores devem ter duas componentes (x, y)")
+        raise ValueError("Vectors must have two components (x, y)")
     return v1[0] * v2[1] - v1[1] * v2[0]
 
-def calcular_modulo(vetor):
-    return np.linalg.norm(vetor)
+def calculate_magnitude(vector):
+    return np.linalg.norm(vector)
 
-def calcular_versor(vetor):
-    modulo = np.linalg.norm(vetor)
-    if modulo == 0:
-        return np.array([0, 0])
-    return vetor / modulo
+def calculate_unit_vector(vector):
+    magnitude = np.linalg.norm(vector)
+    if magnitude == 0:
+        return np.array([0.0, 0.0])
+    return vector / magnitude
 
-def calcular_angulo(Vdir, Pdir):
-    dot_product = np.dot(Vdir, Pdir)
-    norm_Vdir = np.linalg.norm(Vdir)
-    norm_Pdir = np.linalg.norm(Pdir)
-    if norm_Vdir == 0 or norm_Pdir == 0:
-        return 0, 0
-    cos_theta = dot_product / (norm_Vdir * norm_Pdir)
+def calculate_angle(v_dir, p_dir):
+    dot_product = np.dot(v_dir, p_dir)
+    norm_v = np.linalg.norm(v_dir)
+    norm_p = np.linalg.norm(p_dir)
+    if norm_v == 0 or norm_p == 0:
+        return 0.0, 0.0
+    cos_theta = dot_product / (norm_v * norm_p)
     cos_theta = np.clip(cos_theta, -1.0, 1.0)
     angle_radians = np.arccos(cos_theta)
     angle_degrees = np.degrees(angle_radians)
     return angle_degrees, angle_radians
 
-def Ang(a, b):
+def calculate_angle_vectors(a, b):
     m = len(a)
-    prod = 0
+    prod = 0.0
     for i in range(m):
         prod = prod + a[i] * b[i]
     mod = np.linalg.norm(a) * np.linalg.norm(b)
@@ -44,7 +45,8 @@ def Ang(a, b):
     val = np.clip(val, -1.0, 1.0)
     return np.arccos(val)
 
-def LemonWall(x, y, r, a):
+def get_lemon_wall_boundary(x, y, r, a):
+    # Generates boundary coordinates for the lemon billiard shape
     theta = np.linspace(0, 2*np.pi, 1000)
     x1 = r*np.cos(theta)
     y1 = r*np.sin(theta) + a
@@ -52,33 +54,31 @@ def LemonWall(x, y, r, a):
     y2 = r*np.sin(theta) - a
     return [x1, y1], [x2, y2]
 
-def Soma(v1, v2):
+def vector_add(v1, v2):
     m = len(v1)
-    u = [v1[i] + v2[i] for i in range(m)]
-    return u
+    return [v1[i] + v2[i] for i in range(m)]
 
-def Sub(v1, v2):
+def vector_sub(v1, v2):
     m = len(v1)
-    u = [v1[i] - v2[i] for i in range(m)]
-    return u
+    return [v1[i] - v2[i] for i in range(m)]
 
-def Modulo(v):
+def vector_norm(v):
     return np.linalg.norm(v)
 
-def Interno(v1, v2):
+def vector_dot(v1, v2):
     return np.dot(v1, v2)
 
-def Escalar(k, v1):
+def vector_scale(k, v1):
     return [k * x for x in v1]
 
-def Proj(v1, v2):
+def vector_project(v1, v2):
     m = len(v1)
-    u = []
-    val_interno = Interno(v1, v2)
-    val_modulo = Modulo(v1)
-    if val_modulo == 0:
+    dot_val = vector_dot(v1, v2)
+    norm_val = vector_norm(v1)
+    if norm_val == 0:
         return [0.0] * m
-    div = (val_interno / val_modulo ** 2)
+    div = (dot_val / norm_val ** 2)
+    u = []
     m = m - 1
     while m >= 0:
         w = div * v1[m]
@@ -86,38 +86,37 @@ def Proj(v1, v2):
         m = m - 1
     return u
 
-def equacao_circulo(x, h, k, r):
+def circle_equation(x, h, k, r):
     return (x[0] - h) ** 2 + (x[1] - k) ** 2 - r ** 2
 
-def encontrar_parametros_circulo(pontos_x, pontos_y):
-    x_dados = np.array(pontos_x)
-    y_dados = np.array(pontos_y)
-    estimativa_inicial = (0, 0, 1)
-    parametros_otimos, covariancia = curve_fit(
-        equacao_circulo, 
-        (x_dados, y_dados), 
-        np.zeros(len(pontos_x)), 
-        p0=estimativa_inicial,
+def fit_circle_parameters(points_x, points_y):
+    x_data = np.array(points_x)
+    y_data = np.array(points_y)
+    initial_estimate = (0.0, 0.0, 1.0)
+    optimal_params, covariance = curve_fit(
+        circle_equation, 
+        (x_data, y_data), 
+        np.zeros(len(points_x)), 
+        p0=initial_estimate,
         maxfev=10000
     )
-    h, k, r = parametros_otimos
-    erros = np.sqrt(np.diag(covariancia))
-    h_erro, k_erro, r_erro = erros[0], erros[1], erros[2]
-    return (h, k), r, (h_erro, k_erro), r_erro
+    h, k, r = optimal_params
+    errors = np.sqrt(np.diag(covariance))
+    h_error, k_error, r_error = errors[0], errors[1], errors[2]
+    return (h, k), r, (h_error, k_error), r_error
 
-def EffA(ts, xs, ys, l1, l2, initial_a):
+def calculate_reflection_efficiency(ts, xs, ys, l1, l2, initial_a):
     a = initial_a
     tdiff = np.diff(ts)
     cont0 = 0
-    angin = []
-    angout = []
-    angdiff = []
-    fly = []
+    ang_in = []
+    ang_out = []
+    ang_diff = []
+    flight_lengths = []
     for i in range(len(ts)-1):
         x0, y0 = xs[cont0], ys[cont0]
         if tdiff[i] > 5/30:
             x1, y1 = xs[i], ys[i]
-            refp = [x1, y1]
             vec = [x1 - x0, y1 - y0]
             vec2 = [x0 - x1, y0 - y1]
 
@@ -149,18 +148,18 @@ def EffA(ts, xs, ys, l1, l2, initial_a):
                     aa2 = diff2.index(np.min(diff2))
                     lvec2 = [l1[0][aa2], l1[1][aa2]]
 
-            inc = Ang(lvec, vec)
-            ref = Ang(lvec2, vec2)
+            inc = calculate_angle_vectors(lvec, vec)
+            ref = calculate_angle_vectors(lvec2, vec2)
 
             if inc > ref:
                 dif = ref / inc
             else:
                 dif = inc / ref
 
-            angin.append(inc)
-            angout.append(ref)
-            angdiff.append(dif)
-            fly.append(np.linalg.norm(vec))
+            ang_in.append(inc)
+            ang_out.append(ref)
+            ang_diff.append(dif)
+            flight_lengths.append(np.linalg.norm(vec))
             cont0 = i + 1
 
-    return np.array(angin), np.array(angout), np.array(angdiff), np.array(fly)
+    return np.array(ang_in), np.array(ang_out), np.array(ang_diff), np.array(flight_lengths)

@@ -1,11 +1,11 @@
-% código atualizado em 23-fev-2021
-% esse código analisa o video do stadium e
-% obtem a posição do carrinho arduino
+% code updated on 23-Feb-2021
+% this code analyzes the stadium video and
+% obtains the arduino cart position
 %
 clear all;
 close all;
 tic;
-VG=0; % Ver Gráficos =1 mostra os gráficos, VG =0 não mostra nada
+VG=0; % View Graphics = 1 shows graphs, VG = 0 shows nothing
 
 % cd('C:\Users\JOAO VICTOR\Videos\Area(4pi+1)\Circulo(r=0.9 a =0)\CirculoCurtos\CircAnti2dMap\Output1');
 script_dir = fileparts(mfilename('fullpath'));
@@ -17,18 +17,18 @@ N=size(fn,1);
 rx=NaN(1,N-1);
 ry=NaN(1,N-1);
 
-y0=545; % coordenada y do centro do circulo
-x0=754; % coordenada x do centro do circulo
-radius=465; % raio do circulo
+y0=545; % y-coordinate of the circle center
+x0=754; % x-coordinate of the circle center
+radius=465; % circle radius
 
-% x0=94; % coordenada x do canto esquerdo inferior
-% y0=690; % coordenada y do canto esquerdo inferior
+% x0=94; % x-coordinate of the lower left corner
+% y0=690; % y-coordinate of the lower left corner
 % a=0*radius;%/2;
 % 
 % h=2*a;
-% w=2*radius;%largura do retangulo
+% w=2*radius;%rectangle width
 % 
-% ht=2.0*radius;% altura do retangulo
+% ht=2.0*radius;% rectangle height
 % xrec=[x0 x0+w x0+w x0];
 % yrec=[y0 y0 y0+ht y0+ht];
 
@@ -50,7 +50,7 @@ ym=764; %cond1
 %xm=839; %cond6
 %ym=954; %cond6
 
-sb=20; % sensibilidade
+sb=20; % sensitivity
 
 xpos=NaN(1,N);
 ypos=NaN(1,N);
@@ -151,7 +151,7 @@ for ii=1:1:N
     
     disp(ii);
     
-    PB=PB.*R0; % apaga tudo fora do stadium
+    PB=PB.*R0; % clears everything outside the stadium
     
     
     
@@ -191,15 +191,15 @@ for ii=1:1:N
     mx=cond.*x;
     my=cond.*y;
     
-    mx=mx(mx~=0); % remover os elementos 0, eles modificam as médias
-    my=my(my~=0); % remover os elementos 0
+    mx=mx(mx~=0); % remove 0 elements, eles modificam as médias
+    my=my(my~=0); % remove 0 elements
     
     xpos(ii)=mean(mx);
     ypos(ii)=mean(my);
     xerro(ii)=std(mx);
     yerro(ii)=std(my);
     
-    %    NAO PODE USAR PLOT NO MODO TERINAL
+    %    CANNOT USE PLOT IN TERMINAL MODE
     
     if VG==1
         figure(2);

@@ -1,20 +1,20 @@
-# Cronograma de Atividades Pendentes - Lemon Billiard
+# Master's Project Pending Checklist - Lemon Billiard
 
-Este documento lista todas as tarefas necessárias para a conclusão dos objetivos do projeto de mestrado, divididas por áreas de atuação.
+This document lists all tasks required to complete the objectives of the master's research project, categorized by areas of development.
 
-## 1. Documentação e Planejamento
-- [X] **Compilar manuais do robô**: Reunir e listar as especificações técnicas, manuais de motores, sensores e atuadores na pasta `docs/manuais/`.
-- [X] **Esquema de circuito eletrônico**: Desenhar e incluir o diagrama esquemático das conexões eletrônicas do robô (ex: conexões Arduino, shields e drivers) na pasta `docs/circuito/`.
+## 1. Documentation and Planning
+- [x] **Compile robot manuals**: Gather and reference datasheets and manuals of components in `docs/manuals/` (completed: [datasheets.bib](file:///media/Externos/HDEX/Dropbox/Obsidian/Quirino/10 - Anexos/10.03 - Projetos/10.03.12 - Lemon_Billiard/docs/manuals/datasheets.bib)).
+- [x] **Electronic schematics**: Draw and include schematic diagrams of the robot circuitry (Arduino connections, drivers, sensors) in `docs/circuit/` (completed: `schema.svg` and `schema_lemon_robot.png`).
 
-## 2. Hardware e Impressão 3D
-- [X] **Organização de arquivos CAD**: Catalogar e adicionar os arquivos finais de modelagem 3D (`.stl`) na pasta `hardware/3d_printing/`.
-- [X] **Configurações de fatiamento**: Criar um arquivo descritivo contendo os parâmetros ideais de impressão (temperatura, densidade de preenchimento, velocidade, suporte) para cada peça `.stl`.
+## 2. Hardware and 3D Printing
+- [x] **CAD file organization**: Catalog and upload the final 3D modeling files (`.stl`) to the folder `hardware/3d_printing/` (completed: `LemonRobot.stl`).
+- [x] **Slicing configuration**: Create a descriptive file containing the ideal printing parameters (temperatures, infill density, print speed, support) for the parts (completed: [slicing_config.md](file:///media/Externos/HDEX/Dropbox/Obsidian/Quirino/10 - Anexos/10.03 - Projetos/10.03.12 - Lemon_Billiard/hardware/3d_printing/slicing_config.md)).
 
-## 3. Software do Robô (Firmware Embarcado)
-- [X] **Estrutura de arquivos**: Transferir o código-fonte de controle embarcado do robô (firmware do Arduino) para a pasta `robot_software/`.
-- [ ] **Refatoração e documentação**: Limpar o código embarcado, organizar funções de movimentação e controle, e documentar os principais parâmetros de controle do robô.
+## 3. Robot Software (Embedded Firmware)
+- [x] **File structure**: Move the embedded control source code of the robot (Arduino firmware) to the folder `robot_software/` (completed: `RobotLemon_v1.ino`).
+- [ ] **Refactoring and documentation**: Clean the embedded code, organize functions for motion and sensor readings, and document key robot control parameters.
 
-## 4. Pipeline de Processamento e Análise de Dados
-- [ ] **Rastreamento de trajetórias reais**: Executar o script MATLAB `data_pipeline/01_frame_extractor/robo_stadium_mac.m` para processar sequências de vídeo de experimentos físicos reais e gerar as coordenadas em `data/raw/`.
-- [ ] **Processamento em lote**: Executar o pipeline (`main.py` opção 2 e 3) para processar as trajetórias reais obtidas, gerando os respectivos coeficientes geométricos ($\gamma$), expoentes de Lyapunov ($\lambda$) e mapas de Poincaré em `data/results/`.
-- [ ] **Análise comparativa**: Contrastar os resultados experimentais reais obtidos com as trajetórias teóricas geradas pelo simulador (`simulator.py`) para validar o modelo de bilhar caótico.
+## 4. Data Processing and Analysis Pipeline
+- [ ] **Real trajectory tracking**: Execute the MATLAB script `data_pipeline/01_frame_extractor/robo_stadium_mac.m` to process video sequences of real physical experiments and extract raw coordinates to `data/raw/`.
+- [ ] **Batch processing execution**: Run the modular pipeline (`main.py` options 2 and 3) to process raw coordinates, calculate geometric coefficients ($\gamma$), Lyapunov exponents ($\lambda$), and generate Poincaré maps under `data/results/`.
+- [ ] **Comparative analysis**: Compare experimental results with numerical data from the simulator (`simulator.py`) to validate the chaotic billiard model.

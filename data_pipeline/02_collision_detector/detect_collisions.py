@@ -5,17 +5,17 @@ import glob
 import numpy as np
 from scipy.signal import butter, filtfilt
 
-# Adiciona o caminho pai para importar geometry_utils
+# Adds parent directory to system path to import geometry_utils
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import geometry_utils as gu
 
-def Lowpass(data, cutoff, fs, order):
+def lowpass_filter(data, cutoff, fs, order):
     normal_cutoff = cutoff / fs
     b, a = butter(order, normal_cutoff, btype='low', analog=False)
     y = filtfilt(b, a, data)
     return y
 
-def StraightWalk(t, x, y, v):
+def straight_walk_detector(t, x, y, v):
     ts = []
     xs = []
     ys = []
@@ -26,77 +26,76 @@ def StraightWalk(t, x, y, v):
             ts.append(t[i])
     return ts, xs, ys
 
-def Col(ts, xs, ys, dt):
+def detect_collisions(ts, xs, ys, dt):
     tdiff = np.diff(ts)
-    cont0 = 0
-    Fl = 0
-    refp = [[], []]
-    T = []
+    start_idx = 0
+    flight_duration = 0.0
+    collision_x = []
+    collision_y = []
+    time_intervals = []
     for i in range(len(ts)-1):
         if tdiff[i] > 5/30:
             x1, y1 = xs[i], ys[i]
-            refp[0].append(x1)
-            refp[1].append(y1)
-            T.append(Fl)
-            Fl = 0
-        Fl = Fl + dt
-    return refp[0], refp[1], np.array(T).T
+            collision_x.append(x1)
+            collision_y.append(y1)
+            time_intervals.append(flight_duration)
+            flight_duration = 0.0
+        flight_duration = flight_duration + dt
+    return collision_x, collision_y, np.array(time_intervals).T
 
 def process_file(file_path):
-    print(f"Processando arquivo: {file_path}")
+    print(f"Processing file: {file_path}")
     base_name = os.path.basename(file_path)
-    nome_sem_extensao = os.path.splitext(base_name)[0]
+    filename_without_ext = os.path.splitext(base_name)[0]
 
-    # Carrega dados
+    # Loads raw coordinate data
     try:
         X, Y, ex, ey = np.loadtxt(file_path, unpack=True)
-    except Exception as e:
-        print(f"Erro ao ler arquivo {file_path}: {e}")
-        # Tenta ler com apenas duas colunas caso seja simulação
+    except Exception:
         try:
             X, Y, _, _ = np.loadtxt(file_path, unpack=True)
-        except Exception as e2:
+        except Exception:
             try:
                 X, Y = np.loadtxt(file_path, usecols=(0, 1), unpack=True)
-            except Exception as e3:
-                print(f"Falha total ao ler coordenadas: {e3}")
+            except Exception as e:
+                print(f"Failed to read file {file_path}: {e}")
                 return
 
-    # Correção de rotação (se não for simulado com sufixo T_S)
-    if not nome_sem_extensao.endswith("T_S"):
-        Menor_X = np.min(X)
-        X_i = np.where(X == Menor_X)[0][0]
-        Maior_X = np.max(X)
-        X_I = np.where(X == Maior_X)[0][0]
+    # Rotational correction for experimental data
+    if not filename_without_ext.endswith("T_S"):
+        min_x = np.min(X)
+        idx_min = np.where(X == min_x)[0][0]
+        max_x = np.max(X)
+        idx_max = np.where(X == max_x)[0][0]
 
-        Vx_Exp = [X[X_I] - X[X_i], Y[X_I] - Y[X_i]]
-        Vi = [1, 0]
-        Ang_Expg, Ang_Expr = gu.calcular_angulo(Vx_Exp, Vi)
-        print(f"Angulo de correcao de rotacao: {Ang_Expg:.3f} graus")
+        experimental_vector = [X[idx_max] - X[idx_min], Y[idx_max] - Y[idx_min]]
+        unit_x = [1.0, 0.0]
+        angle_deg, angle_rad = gu.calculate_angle(experimental_vector, unit_x)
+        print(f"Rotational correction angle: {angle_deg:.3f} degrees")
         
-        TamX = len(X)
-        if Ang_Expg < 5:
-            if Vx_Exp[1] < 0:
-                for i in range(TamX - 1):
-                    X[i] = +X[i] * np.cos(Ang_Expr) - Y[i] * np.sin(Ang_Expr)
-                    Y[i] = +X[i] * np.sin(Ang_Expr) + Y[i] * np.cos(Ang_Expr)
+        len_x = len(X)
+        if angle_deg < 5.0:
+            if experimental_vector[1] < 0.0:
+                for i in range(len_x - 1):
+                    X[i] = +X[i] * np.cos(angle_rad) - Y[i] * np.sin(angle_rad)
+                    Y[i] = +X[i] * np.sin(angle_rad) + Y[i] * np.cos(angle_rad)
             else:
-                for i in range(TamX - 1):
-                    X[i] = +X[i] * np.cos(Ang_Expr) + Y[i] * np.sin(Ang_Expr)
-                    Y[i] = -X[i] * np.sin(Ang_Expr) + Y[i] * np.cos(Ang_Expr)
+                for i in range(len_x - 1):
+                    X[i] = +X[i] * np.cos(angle_rad) + Y[i] * np.sin(angle_rad)
+                    Y[i] = -X[i] * np.sin(angle_rad) + Y[i] * np.cos(angle_rad)
 
-        Norm = (np.max(Y) - np.min(Y)) * 0.5
-        RrR = 1.2 / 533
-        Xr = (X - np.mean(X)) * RrR
-        Yr = (Y - np.mean(Y)) * RrR
+        norm_factor = (np.max(Y) - np.min(Y)) * 0.5
+        scale_ratio = 1.2 / 533
+        Xr = (X - np.mean(X)) * scale_ratio
+        Yr = (Y - np.mean(Y)) * scale_ratio
         X = Xr
         Y = Yr
     else:
-        # Se for simulado, já está em dimensões corretas
+        # Simulation coordinates are already in correct scale
         Xr = X.copy()
         Yr = Y.copy()
 
-    # Cálculo da velocidade para detecção de colisões
+    # Calculate velocity and time vector
     N = len(X)
     t = np.linspace(0, (N - 1) / 30, N)
     dt = t[1] - t[0]
@@ -104,146 +103,143 @@ def process_file(file_path):
     Vx = np.gradient(X, dt)
     Vy = np.gradient(Y, dt)
     V = np.sqrt(Vx**2 + Vy**2)
-    Vm = np.mean(V)
+    mean_V = np.mean(V)
 
-    # Transformada de Fourier para estimar frequências
+    # FFT frequency analysis for lowpass filtering
     freq = np.fft.fftfreq(N, dt)
-    modulo = freq > 0
-    fourier = freq[modulo]
-    F = np.sqrt(fourier ** 2)
-    fs = max(F)
+    positive_mask = freq > 0
+    fourier_freqs = freq[positive_mask]
+    magnitude_freqs = np.sqrt(fourier_freqs ** 2)
+    fs = max(magnitude_freqs)
     cutoff = fs / 10
     order = 3
 
-    # Filtragem passa-baixa de velocidade e aceleração
-    Vn = Lowpass(V, cutoff, fs, order)
+    # Apply low-pass Butterworth filter
+    filtered_V = lowpass_filter(V, cutoff, fs, order)
 
-    # Detecção das colisões por descontinuidade da velocidade
-    ts, Xs, Ys = StraightWalk(t, X, Y, Vn)
-    Cx, Cy, TList = Col(ts, Xs, Ys, dt)
+    # Detect collisions based on straight paths
+    ts, Xs, Ys = straight_walk_detector(t, X, Y, filtered_V)
+    cx, cy, time_intervals = detect_collisions(ts, Xs, Ys, dt)
 
-    print(f"Colisoes detectadas: {len(Cx)}")
-    if len(Cx) < 3:
-        print("Aviso: Poucas colisões detectadas. O arquivo pode não ter dados suficientes ou o limiar é inadequado.")
+    print(f"Collisions detected: {len(cx)}")
+    if len(cx) < 3:
+        print("Warning: Insufficient number of collisions detected.")
         return
 
-    Cym = 0.0
-    Altura_y = max(Cy) + np.abs(min(Cy))
+    mean_cy_threshold = 0.0
+    total_height = max(cy) + np.abs(min(cy))
 
-    # Separação dos pontos superior e inferior para ajuste dos círculos
-    pontos_x_sup = []
-    pontos_y_sup = []
-    pontos_x_inf = []
-    pontos_y_inf = []
-    for i in range(len(Cy)):
-        if Cy[i] > Cym:
-            pontos_x_sup.append(Cx[i])
-            pontos_y_sup.append(Cy[i])
+    # Split collisions to fit upper and lower circle boundaries
+    upper_x = []
+    upper_y = []
+    lower_x = []
+    lower_y = []
+    for i in range(len(cy)):
+        if cy[i] > mean_cy_threshold:
+            upper_x.append(cx[i])
+            upper_y.append(cy[i])
         else:
-            pontos_x_inf.append(Cx[i])
-            pontos_y_inf.append(Cy[i])
+            lower_x.append(cx[i])
+            lower_y.append(cy[i])
 
-    # Ajuste dos círculos
-    centro_sup, raio_sup, _, _ = gu.encontrar_parametros_circulo(pontos_x_sup, pontos_y_sup)
-    centro_inf, raio_inf, _, _ = gu.encontrar_parametros_circulo(pontos_x_inf, pontos_y_inf)
+    # Fit boundary circles
+    upper_center, upper_radius, _, _ = gu.fit_circle_parameters(upper_x, upper_y)
+    lower_center, lower_radius, _, _ = gu.fit_circle_parameters(lower_x, lower_y)
 
-    centro_AB = (centro_inf[0] - centro_sup[0], centro_inf[1] - centro_sup[1])
-    a = (centro_inf[1] - centro_sup[1]) / 2
-    gamma = 2 * a / (raio_sup + raio_inf)
+    centers_difference = (lower_center[0] - upper_center[0], lower_center[1] - upper_center[1])
+    a = (lower_center[1] - upper_center[1]) / 2.0
+    gamma = 2.0 * a / (upper_radius + lower_radius)
 
-    R = np.pi / (2 * np.arcsin(np.sqrt(1 - (gamma)**2)))
-    Re = (raio_sup + raio_inf) / 2
-    L0 = 2 * np.pi
-    L1 = 5.01
-    h = L1 * (1 - gamma) / (2 * np.arcsin(np.sqrt(1 - gamma**2)))
+    R_geom = np.pi / (2 * np.arcsin(np.sqrt(1.0 - (gamma)**2)))
+    mean_radius = (upper_radius + lower_radius) / 2.0
+    theoretical_height = 5.01 * (1.0 - gamma) / (2.0 * np.arcsin(np.sqrt(1.0 - gamma**2)))
     
-    # Fatores de normalização geométrica
-    N_y = R / Re
-    N_Yy = h / Altura_y
+    # Scale normalization factors
+    norm_factor_y = R_geom / mean_radius
+    norm_factor_real_y = theoretical_height / total_height
 
-    # Aplicação da normalização geométrica
-    Cx_norm = (Cx - np.mean(Cx)) * N_y
-    Cy_norm = (Cy - np.mean(Cy)) * N_y
-    X_norm = (X - np.mean(X)) * N_y
-    Y_norm = (Y - np.mean(Y)) * N_y
+    # Normalize coordinate trajectories
+    cx_normalized = (cx - np.mean(cx)) * norm_factor_y
+    cy_normalized = (cy - np.mean(cy)) * norm_factor_y
+    x_normalized = (X - np.mean(X)) * norm_factor_y
+    y_normalized = (Y - np.mean(Y)) * norm_factor_y
 
-    L1_wall, L2_wall = gu.LemonWall(X_norm, Y_norm, (raio_sup + raio_inf)/2, a)
-    Inc, Ref, AngEff, FF = gu.EffA(ts, Xs, Ys, L1_wall, L2_wall, a)
+    l1_wall, l2_wall = gu.get_lemon_wall_boundary(x_normalized, y_normalized, mean_radius, a)
+    ang_in, ang_out, ang_diff, flight_lengths = gu.calculate_reflection_efficiency(ts, Xs, Ys, l1_wall, l2_wall, a)
 
-    # Cálculo das coordenadas de Poincaré
-    Comp = []
-    Kappa = []
-    V_col = []
-    ThetaList = []
-    AlphaList = []
-    PerList = []
-    Nsteps = len(Cx_norm)
+    # Compute Poincaré coordinates (arc length and reflection angle)
+    flight_lengths_coll = []
+    kappa_coll = []
+    velocity_coll = []
+    theta_list = []
+    alpha_list = []
+    perimeter_list = []
+    num_steps = len(cx_normalized)
 
-    for i in range(1, Nsteps - 1):
-        c1 = [Cx_norm[i + 1], Cy_norm[i + 1]]
-        c2 = [Cx_norm[i], Cy_norm[i]]
-        c3 = [Cx_norm[i - 1], Cy_norm[i - 1]]
-        xx = Cx_norm[i]
-        yy = Cy_norm[i]
+    for i in range(1, num_steps - 1):
+        c1 = [cx_normalized[i + 1], cy_normalized[i + 1]]
+        c2 = [cx_normalized[i], cy_normalized[i]]
+        c3 = [cx_normalized[i - 1], cy_normalized[i - 1]]
+        xx = cx_normalized[i]
+        yy = cy_normalized[i]
 
-        if yy >= np.mean(Cy_norm):
-            R_vec = gu.Sub(c2, [centro_sup[0], centro_sup[1]])
-            Per = np.arccos(xx / (np.sqrt(xx**2 + yy**2))) + np.pi
+        if yy >= np.mean(cy_normalized):
+            R_vec = gu.vector_sub(c2, [upper_center[0], upper_center[1]])
+            perimeter = np.arccos(xx / (np.sqrt(xx**2 + yy**2))) + np.pi
         else:
-            R_vec = gu.Sub(c2, [centro_inf[0], centro_inf[1]])
-            Per = np.arccos(-xx / (np.sqrt(xx**2 + yy**2)))
+            R_vec = gu.vector_sub(c2, [lower_center[0], lower_center[1]])
+            perimeter = np.arccos(-xx / (np.sqrt(xx**2 + yy**2)))
 
-        vec = gu.Sub(c2, c3)
-        vecRef = gu.Sub(c2, c1)
-        Reflec = gu.Ang(vec, R_vec)
+        vec = gu.vector_sub(c2, c3)
+        vec_ref = gu.vector_sub(c2, c1)
+        reflection_angle = gu.calculate_angle_vectors(vec, R_vec)
 
-        if (c2[0] * vecRef[1] - c2[1] * vecRef[0]) < 0:
-            Reflec = -Reflec
+        if (c2[0] * vec_ref[1] - c2[1] * vec_ref[0]) < 0.0:
+            reflection_angle = -reflection_angle
 
-        Alf = gu.Ang(vecRef, R_vec)
-        Comp.append(np.linalg.norm(vec))
-        Kappa.append(1.0 / np.linalg.norm(R_vec))
-        Velo = np.linalg.norm(vec) / TList[i]
-        V_col.append(Velo)
-        ThetaList.append(Reflec)
-        AlphaList.append(Alf)
-        PerList.append(Per)
+        alpha = gu.calculate_angle_vectors(vec_ref, R_vec)
+        flight_lengths_coll.append(np.linalg.norm(vec))
+        kappa_coll.append(1.0 / np.linalg.norm(R_vec))
+        velocity = np.linalg.norm(vec) / time_intervals[i]
+        velocity_coll.append(velocity)
+        theta_list.append(reflection_angle)
+        alpha_list.append(alpha)
+        perimeter_list.append(perimeter)
 
-    # Garantir que a pasta processed exista
+    # Ensure processed directory exists
     os.makedirs("../../data/processed", exist_ok=True)
 
-    # Salva arquivos de saída processados
-    traj_path = f"../../data/processed/{nome_sem_extensao}_(Traj).dat"
+    # Save processed coordinate data
+    traj_path = f"../../data/processed/{filename_without_ext}_(Traj).dat"
     with open(traj_path, "w") as f:
         for i in range(len(Xr)):
-            f.write(f"{Xr[i]:.6f} {Yr[i]:.6f} {X_norm[i]:.6f} {Y_norm[i]:.6f}\n")
+            f.write(f"{Xr[i]:.6f} {Yr[i]:.6f} {x_normalized[i]:.6f} {y_normalized[i]:.6f}\n")
 
-    th_ka_path = f"../../data/processed/{nome_sem_extensao}_(T_Th_Ka_V).dat"
-    mean_V_col = np.mean(V_col) if len(V_col) > 0 else 1.0
-    # Calcular VList / mean(V) como no código original
-    VList = FF / TList
+    th_ka_path = f"../../data/processed/{filename_without_ext}_(T_Th_Ka_V).dat"
+    mean_V_coll = np.mean(velocity_coll) if len(velocity_coll) > 0 else 1.0
+    flight_velocity = flight_lengths / time_intervals
     with open(th_ka_path, "w") as f:
-        for i in range(len(Kappa)):
-            f.write(f"{(TList[i] * mean_V_col):.6f} {ThetaList[i]:.6f} {Kappa[i]:.6f} {(VList[i] / mean_V_col):.6f}\n")
+        for i in range(len(kappa_coll)):
+            f.write(f"{(time_intervals[i] * mean_V_coll):.6f} {theta_list[i]:.6f} {kappa_coll[i]:.6f} {(flight_velocity[i] / mean_V_coll):.6f}\n")
 
-    per_sin_path = f"../../data/processed/{nome_sem_extensao}_(Per_SinTheta).dat"
+    per_sin_path = f"../../data/processed/{filename_without_ext}_(Per_SinTheta).dat"
     with open(per_sin_path, "w") as f:
-        for i in range(len(PerList)):
-            f.write(f"{PerList[i]:.6f} {np.sin(ThetaList[i]):.6f}\n")
+        for i in range(len(perimeter_list)):
+            f.write(f"{perimeter_list[i]:.6f} {np.sin(theta_list[i]):.6f}\n")
 
-    col_xy_path = f"../../data/processed/{nome_sem_extensao}_Colisao(X-Y).dat"
+    col_xy_path = f"../../data/processed/{filename_without_ext}_Colisao(X-Y).dat"
     with open(col_xy_path, "w") as f:
-        for i in range(1, len(Cx_norm) - 1):
-            f.write(f"{Cx_norm[i]:.6f} {Cy_norm[i]:.6f}\n")
+        for i in range(1, len(cx_normalized) - 1):
+            f.write(f"{cx_normalized[i]:.6f} {cy_normalized[i]:.6f}\n")
 
-    print(f"Arquivos processados gerados com sucesso para: {nome_sem_extensao}")
+    print(f"Processed output files generated successfully for: {filename_without_ext}")
 
 def main():
-    parser = argparse.ArgumentParser(description="Detecção de colisões e pré-processador Lemon Billiard")
-    parser.add_argument("--file", type=str, help="Arquivo específico em data/raw/ para processar")
+    parser = argparse.ArgumentParser(description="Lemon Billiard Collision Detection and Preprocessor")
+    parser.add_argument("--file", type=str, help="Specific file name in data/raw/ to process")
     args = parser.parse_args()
 
-    # Define o diretório de execução relativo ao script
+    # Change working directory relative to the script location
     script_dir = os.path.dirname(os.path.abspath(__file__))
     os.chdir(script_dir)
 
@@ -253,12 +249,12 @@ def main():
         if os.path.exists(file_path):
             process_file(file_path)
         else:
-            print(f"Erro: Arquivo {file_path} não encontrado.")
+            print(f"Error: File {file_path} not found.")
     else:
-        # Modo lote: processa todos os arquivos .txt em data/raw
+        # Batch processing: processes all .txt files in data/raw/
         files = glob.glob(os.path.join(raw_dir, "*.txt"))
         if not files:
-            print(f"Nenhum arquivo .txt encontrado em {raw_dir}")
+            print(f"No .txt files found in {raw_dir}")
             return
         for f in sorted(files):
             process_file(f)
