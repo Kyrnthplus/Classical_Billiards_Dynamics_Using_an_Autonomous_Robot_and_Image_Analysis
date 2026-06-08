@@ -1,0 +1,30 @@
+# Ignorar diretórios de dados locais (preservando apenas a estrutura de pastas via .gitkeep)
+data/processed/*
+!data/processed/.gitkeep
+data/results/*
+!data/results/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+
+# Ignorar pastas de descarte e dados gerados no histórico legado
+source/APR2.4 (Dissertação)/DadosCrus/
+source/APR2.4 (Dissertação)/DadosExp/
+source/APR2.4 (Dissertação)/DadosTratados/
+source/APR2.4 (Dissertação)/DadosTratadosSimulados/
+source/APR2.4 (Dissertação)/Gráficos/
+source/APR2.4 (Dissertação)/Lyapunov/
+source/APR2.4 (Dissertação)/Old/
+source/APR2.4 (Dissertação)/Outros/
+source/APR2.4 (Dissertação)/Passo/
+source/APR2.4 (Dissertação)/Passo3d/
+source/APR2.4 (Dissertação)/LyapGamma/
+
+# Caches do Python e arquivos temporários do editor
+__pycache__/
+*.pyc
+*~
+*.bak
+*.tmp
+
+# Arquivos pesados de manufatura (g-code)
+*.gcode
