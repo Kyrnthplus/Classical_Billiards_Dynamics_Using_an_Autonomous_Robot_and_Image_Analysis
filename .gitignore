@@ -18,3 +18,4 @@ __pycache__/
 
 # Arquivos pesados de manufatura (g-code)
 *.gcode
+*.md
