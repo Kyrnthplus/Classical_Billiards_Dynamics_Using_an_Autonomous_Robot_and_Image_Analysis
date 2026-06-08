@@ -3,15 +3,15 @@
 Este documento lista todas as tarefas necessárias para a conclusão dos objetivos do projeto de mestrado, divididas por áreas de atuação.
 
 ## 1. Documentação e Planejamento
-- [ ] **Compilar manuais do robô**: Reunir e listar as especificações técnicas, manuais de motores, sensores e atuadores na pasta `docs/manuais/`.
-- [ ] **Esquema de circuito eletrônico**: Desenhar e incluir o diagrama esquemático das conexões eletrônicas do robô (ex: conexões Arduino, shields e drivers) na pasta `docs/circuito/`.
+- [X] **Compilar manuais do robô**: Reunir e listar as especificações técnicas, manuais de motores, sensores e atuadores na pasta `docs/manuais/`.
+- [X] **Esquema de circuito eletrônico**: Desenhar e incluir o diagrama esquemático das conexões eletrônicas do robô (ex: conexões Arduino, shields e drivers) na pasta `docs/circuito/`.
 
 ## 2. Hardware e Impressão 3D
-- [ ] **Organização de arquivos CAD**: Catalogar e adicionar os arquivos finais de modelagem 3D (`.stl`) na pasta `hardware/3d_printing/`.
-- [ ] **Configurações de fatiamento**: Criar um arquivo descritivo contendo os parâmetros ideais de impressão (temperatura, densidade de preenchimento, velocidade, suporte) para cada peça `.stl`.
+- [X] **Organização de arquivos CAD**: Catalogar e adicionar os arquivos finais de modelagem 3D (`.stl`) na pasta `hardware/3d_printing/`.
+- [X] **Configurações de fatiamento**: Criar um arquivo descritivo contendo os parâmetros ideais de impressão (temperatura, densidade de preenchimento, velocidade, suporte) para cada peça `.stl`.
 
 ## 3. Software do Robô (Firmware Embarcado)
-- [ ] **Estrutura de arquivos**: Transferir o código-fonte de controle embarcado do robô (firmware do Arduino) para a pasta `robot_software/`.
+- [X] **Estrutura de arquivos**: Transferir o código-fonte de controle embarcado do robô (firmware do Arduino) para a pasta `robot_software/`.
 - [ ] **Refatoração e documentação**: Limpar o código embarcado, organizar funções de movimentação e controle, e documentar os principais parâmetros de controle do robô.
 
 ## 4. Pipeline de Processamento e Análise de Dados

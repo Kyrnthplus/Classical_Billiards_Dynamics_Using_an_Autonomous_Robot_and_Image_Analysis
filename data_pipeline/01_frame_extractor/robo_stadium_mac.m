@@ -8,9 +8,11 @@ tic;
 VG=0; % Ver Gráficos =1 mostra os gráficos, VG =0 não mostra nada
 
 % cd('C:\Users\JOAO VICTOR\Videos\Area(4pi+1)\Circulo(r=0.9 a =0)\CirculoCurtos\CircAnti2dMap\Output1');
-cd('/data/joao/data/RoboCircular-bola/21-06-2022/'); % ubuntu
+script_dir = fileparts(mfilename('fullpath'));
+video_dir = fullfile(script_dir, '..', '..', 'data', 'raw', 'video', 'JPEG');
+cd(video_dir);
 % cd('/Users/antonio/Dropbox/projeto-carro/stadium/Stadium3/frames-gray');
-fn=dir('out*.jpg');
+fn=dir('*.jpg');
 N=size(fn,1);
 rx=NaN(1,N-1);
 ry=NaN(1,N-1);
@@ -56,7 +58,11 @@ xerro=NaN(1,N);
 yerro=NaN(1,N);
 
 filen = imread(fn(1).name);
-PB = rgb2gray(filen);
+if size(filen, 3) == 3
+    PB = rgb2gray(filen);
+else
+    PB = filen;
+end
 
 % [lx,ly]=size(PB(:,:,1));
 % 
@@ -137,7 +143,11 @@ end
 
 for ii=1:1:N
     filen = imread(fn(ii).name);
-    PB = rgb2gray(filen);
+    if size(filen, 3) == 3
+        PB = rgb2gray(filen);
+    else
+        PB = filen;
+    end
     
     disp(ii);
     
