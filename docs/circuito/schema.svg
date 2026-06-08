@@ -1,0 +1,5517 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1169"
+   height="827.1"
+   viewBox="-10 -816 1169 827.1"
+   version="1.1"
+   id="svg247"
+   sodipodi:docname="schema.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs247" />
+  <sodipodi:namedview
+     id="namedview247"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.1057239"
+     inkscape:cx="491.08102"
+     inkscape:cy="819.82494"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g249" />
+  <title
+     id="title1">Sheet_2</title>
+  <style
+     type="text/css"
+     id="style1">
+path, polyline, polygon {stroke-linejoin:round;}
+rect, circle, ellipse, polyline, line, polygon, path {shape-rendering:crispEdges;}
+</style>
+  <circle
+     cx="545"
+     cy="-377"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle37" />
+  <path
+     d="m 548,-380 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path37" />
+  <circle
+     cx="555"
+     cy="-377"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle39" />
+  <path
+     d="m 558,-380 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path39" />
+  <circle
+     cx="565"
+     cy="-377"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle41" />
+  <path
+     d="m 568,-380 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path41" />
+  <circle
+     cx="575"
+     cy="-377"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle43" />
+  <path
+     d="m 578,-380 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path43" />
+  <circle
+     cx="585"
+     cy="-377"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle45" />
+  <path
+     d="m 588,-380 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path45" />
+  <circle
+     cx="595"
+     cy="-377"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle47" />
+  <path
+     d="m 598,-380 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path47" />
+  <circle
+     cx="605"
+     cy="-377"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle49" />
+  <path
+     d="m 608,-380 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path49" />
+  <circle
+     cx="615"
+     cy="-377"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle51" />
+  <path
+     d="m 618,-380 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path51" />
+  <circle
+     cx="625"
+     cy="-377"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle53" />
+  <path
+     d="m 628,-380 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path53" />
+  <circle
+     cx="635"
+     cy="-377"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle55" />
+  <path
+     d="m 638,-380 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path55" />
+  <circle
+     cx="645"
+     cy="-377"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle57" />
+  <path
+     d="m 648,-380 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path57" />
+  <circle
+     cx="655"
+     cy="-377"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle59" />
+  <path
+     d="m 658,-380 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path59" />
+  <circle
+     cx="665"
+     cy="-377"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle61" />
+  <path
+     d="m 668,-380 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path61" />
+  <circle
+     cx="675"
+     cy="-377"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle63" />
+  <path
+     d="m 678,-380 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path63" />
+  <circle
+     cx="685"
+     cy="-377"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle65" />
+  <path
+     d="m 688,-380 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path65" />
+  <circle
+     cx="685"
+     cy="-463"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle67" />
+  <path
+     d="m 682,-460 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path67" />
+  <circle
+     cx="675"
+     cy="-463"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle69" />
+  <path
+     d="m 672,-460 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path69" />
+  <circle
+     cx="665"
+     cy="-463"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle71" />
+  <path
+     d="m 662,-460 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path71" />
+  <circle
+     cx="655"
+     cy="-463"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle73" />
+  <path
+     d="m 652,-460 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path73" />
+  <circle
+     cx="645"
+     cy="-463"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle75" />
+  <path
+     d="m 642,-460 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path75" />
+  <circle
+     cx="635"
+     cy="-463"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle77" />
+  <path
+     d="m 632,-460 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path77" />
+  <circle
+     cx="625"
+     cy="-463"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle79" />
+  <path
+     d="m 622,-460 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path79" />
+  <circle
+     cx="615"
+     cy="-463"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle81" />
+  <path
+     d="m 612,-460 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path81" />
+  <circle
+     cx="605"
+     cy="-463"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle83" />
+  <path
+     d="m 602,-460 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path83" />
+  <circle
+     cx="595"
+     cy="-463"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle85" />
+  <path
+     d="m 592,-460 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path85" />
+  <circle
+     cx="585"
+     cy="-463"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle87" />
+  <path
+     d="m 582,-460 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path87" />
+  <circle
+     cx="575"
+     cy="-463"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle89" />
+  <path
+     d="m 572,-460 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path89" />
+  <circle
+     cx="565"
+     cy="-463"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle91" />
+  <path
+     d="m 562,-460 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path91" />
+  <circle
+     cx="555"
+     cy="-463"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle93" />
+  <path
+     d="m 552,-460 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path93" />
+  <circle
+     cx="545"
+     cy="-463"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle95" />
+  <path
+     d="m 542,-460 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path95" />
+  <circle
+     cx="912"
+     cy="-540"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle99" />
+  <path
+     d="m 915,-537 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path99" />
+  <circle
+     cx="912"
+     cy="-560"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle101" />
+  <path
+     d="m 915,-557 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path101" />
+  <circle
+     cx="912"
+     cy="-580"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle103" />
+  <path
+     d="m 915,-577 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path103" />
+  <circle
+     cx="912"
+     cy="-600"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle105" />
+  <path
+     d="m 915,-597 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path105" />
+  <circle
+     cx="912"
+     cy="-620"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle107" />
+  <path
+     d="m 915,-617 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path107" />
+  <circle
+     cx="912"
+     cy="-640"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle109" />
+  <path
+     d="m 915,-637 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path109" />
+  <circle
+     cx="912"
+     cy="-370"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle113" />
+  <path
+     d="m 915,-367 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path113" />
+  <circle
+     cx="912"
+     cy="-390"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle115" />
+  <path
+     d="m 915,-387 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path115" />
+  <circle
+     cx="912"
+     cy="-410"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle117" />
+  <path
+     d="m 915,-407 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path117" />
+  <circle
+     cx="912"
+     cy="-430"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle119" />
+  <path
+     d="m 915,-427 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path119" />
+  <circle
+     cx="912"
+     cy="-450"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle121" />
+  <path
+     d="m 915,-447 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path121" />
+  <circle
+     cx="912"
+     cy="-470"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle123" />
+  <path
+     d="m 915,-467 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path123" />
+  <circle
+     cx="912"
+     cy="-200"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle127" />
+  <path
+     d="m 915,-197 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path127" />
+  <circle
+     cx="912"
+     cy="-220"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle129" />
+  <path
+     d="m 915,-217 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path129" />
+  <circle
+     cx="912"
+     cy="-240"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle131" />
+  <path
+     d="m 915,-237 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path131" />
+  <circle
+     cx="912"
+     cy="-260"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle133" />
+  <path
+     d="m 915,-257 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path133" />
+  <circle
+     cx="912"
+     cy="-280"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle135" />
+  <path
+     d="m 915,-277 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path135" />
+  <circle
+     cx="912"
+     cy="-300"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle137" />
+  <path
+     d="m 915,-297 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path137" />
+  <circle
+     cx="333"
+     cy="-470"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle141" />
+  <path
+     d="m 330,-473 -3,3 3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path141" />
+  <circle
+     cx="333"
+     cy="-430"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle143" />
+  <path
+     d="m 330,-433 -3,3 3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path143" />
+  <circle
+     cx="177"
+     cy="-470"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle145" />
+  <path
+     d="m 180,-467 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path145" />
+  <circle
+     cx="177"
+     cy="-430"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle147" />
+  <path
+     d="m 180,-427 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path147" />
+  <circle
+     cx="333"
+     cy="-400"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle152" />
+  <path
+     d="m 330,-403 -3,3 3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path152" />
+  <circle
+     cx="333"
+     cy="-360"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle154" />
+  <path
+     d="m 330,-363 -3,3 3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path154" />
+  <circle
+     cx="177"
+     cy="-400"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle156" />
+  <path
+     d="m 180,-397 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path156" />
+  <circle
+     cx="177"
+     cy="-360"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle158" />
+  <path
+     d="m 180,-357 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path158" />
+  <text
+     x="443"
+     y="118"
+     font-family="Verdana"
+     font-size="9.33333px"
+     fill="#0000ff"
+     text-anchor="end"
+     c_pinname="+"
+     display="none"
+     transform="rotate(-90)"
+     id="text161">+</text>
+  <circle
+     cx="105"
+     cy="-438"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle163" />
+  <path
+     d="m 102,-435 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path163" />
+  <text
+     x="397"
+     y="118"
+     font-family="Verdana"
+     font-size="9.33333px"
+     fill="#0000ff"
+     text-anchor="start"
+     c_pinname="-"
+     display="none"
+     transform="rotate(-90)"
+     id="text163">-</text>
+  <circle
+     cx="105"
+     cy="-402"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle165" />
+  <path
+     d="m 108,-405 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path165" />
+  <circle
+     cx="565"
+     cy="-268"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle169" />
+  <path
+     d="m 562,-265 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path169" />
+  <circle
+     cx="575"
+     cy="-268"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle171" />
+  <path
+     d="m 572,-265 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path171" />
+  <circle
+     cx="585"
+     cy="-268"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle173" />
+  <path
+     d="m 582,-265 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path173" />
+  <circle
+     cx="565"
+     cy="-537"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle177" />
+  <path
+     d="m 568,-540 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path177" />
+  <circle
+     cx="575"
+     cy="-537"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle179" />
+  <path
+     d="m 578,-540 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path179" />
+  <circle
+     cx="585"
+     cy="-537"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle181" />
+  <path
+     d="m 588,-540 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path181" />
+  <circle
+     cx="392"
+     cy="-655"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle185" />
+  <path
+     d="m 395,-652 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path185" />
+  <circle
+     cx="392"
+     cy="-635"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle187" />
+  <path
+     d="m 395,-632 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path187" />
+  <circle
+     cx="392"
+     cy="-615"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle189" />
+  <path
+     d="m 395,-612 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path189" />
+  <circle
+     cx="392"
+     cy="-595"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle191" />
+  <path
+     d="m 395,-592 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path191" />
+  <circle
+     cx="392"
+     cy="-210"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle196" />
+  <path
+     d="m 395,-207 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path196" />
+  <circle
+     cx="392"
+     cy="-190"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle198" />
+  <path
+     d="m 395,-187 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path198" />
+  <circle
+     cx="392"
+     cy="-170"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle200" />
+  <path
+     d="m 395,-167 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path200" />
+  <circle
+     cx="392"
+     cy="-150"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle202" />
+  <path
+     d="m 395,-147 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path202" />
+  <text
+     x="133"
+     y="-452"
+     font-family="Verdana"
+     font-size="9.33333px"
+     fill="#0000ff"
+     text-anchor="end"
+     c_pinname="2"
+     display="none"
+     id="text205">2</text>
+  <circle
+     cx="138"
+     cy="-455"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle207" />
+  <path
+     d="m 135,-458 -3,3 3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path207" />
+  <text
+     x="117"
+     y="-452"
+     font-family="Verdana"
+     font-size="9.33333px"
+     fill="#0000ff"
+     text-anchor="start"
+     c_pinname="1"
+     display="none"
+     id="text207">1</text>
+  <circle
+     cx="112"
+     cy="-455"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle209" />
+  <path
+     d="m 115,-452 3,-3 -3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path209" />
+  <text
+     x="428"
+     y="163"
+     font-family="Verdana"
+     font-size="9.33333px"
+     fill="#0000ff"
+     text-anchor="end"
+     c_pinname="2"
+     display="none"
+     transform="rotate(-90)"
+     id="text211">2</text>
+  <circle
+     cx="160"
+     cy="-433"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle213" />
+  <path
+     d="m 157,-430 3,3 3,-3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path213" />
+  <text
+     x="412"
+     y="163"
+     font-family="Verdana"
+     font-size="9.33333px"
+     fill="#0000ff"
+     text-anchor="start"
+     c_pinname="1"
+     display="none"
+     transform="rotate(-90)"
+     id="text213">1</text>
+  <circle
+     cx="160"
+     cy="-407"
+     r="3"
+     stroke="#880000"
+     fill="none"
+     stroke-width="1"
+     display="none"
+     id="circle215" />
+  <path
+     d="m 163,-410 -3,-3 -3,3"
+     fill="none"
+     stroke="#880000"
+     stroke-width="1"
+     display="none"
+     id="path215" />
+  <g
+     id="g248">
+    <g
+       id="g249">
+      <text
+         c_note="note_name"
+         x="571.39001"
+         y="-809"
+         fill="#880000"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         id="text1">A</text>
+      <path
+         d="m 206,-796 v -10 m 0,796 V 0 m 196,-796 v -10 m 0,796 V 0 m 196,-796 v -10 m 0,796 V 0 m 196,-796 v -10 m 0,796 V 0 m 196,-796 v -10 m 0,796 V 0 M 10,-600 H 0 m 1139,0 h 10 M 10,-404 H 0 m 1139,0 h 10 M 10,-208 H 0 m 1139,0 h 10 M 10,-12 H 0 m 1139,0 h 10"
+         id="gge10"
+         locked="0"
+         c_etype="frame_tick"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none" />
+      <text
+         c_note="note_pre"
+         x="571.39001"
+         y="-818"
+         fill="#880000"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         id="text2">A</text>
+      <text
+         x="1.5"
+         y="-698"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text3">A</text>
+      <text
+         x="1140.5"
+         y="-698"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text4">A</text>
+      <text
+         x="1.5"
+         y="-502"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text5">B</text>
+      <text
+         x="1140.5"
+         y="-502"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text6">B</text>
+      <text
+         x="1.5"
+         y="-306"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text7">C</text>
+      <text
+         x="1140.5"
+         y="-306"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text8">C</text>
+      <text
+         x="1.5"
+         y="-110"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text9">D</text>
+      <text
+         x="1140.5"
+         y="-110"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text10">D</text>
+      <text
+         x="108"
+         y="-797.5"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text11">1</text>
+      <text
+         x="108"
+         y="-1.5"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text12">1</text>
+      <text
+         x="304"
+         y="-797.5"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text13">2</text>
+      <text
+         x="304"
+         y="-1.5"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text14">2</text>
+      <text
+         x="500"
+         y="-797.5"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text15">3</text>
+      <text
+         x="500"
+         y="-1.5"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text16">3</text>
+      <text
+         x="696"
+         y="-797.5"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text17">4</text>
+      <text
+         x="696"
+         y="-1.5"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text18">4</text>
+      <text
+         x="892"
+         y="-797.5"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text19">5</text>
+      <text
+         x="892"
+         y="-1.5"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text20">5</text>
+      <rect
+         id="gge121"
+         locked="0"
+         c_etype="frame_innerbox"
+         x="10"
+         y="-796"
+         width="1129"
+         height="786"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none" />
+      <rect
+         id="gge124"
+         locked="0"
+         c_etype="frame_outbox"
+         x="0"
+         y="-806"
+         width="1149"
+         height="806"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none" />
+      <rect
+         id="gge127"
+         locked="0"
+         c_etype="frame_hitarea"
+         x="694.99994"
+         y="-90"
+         width="444"
+         height="80"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none" />
+      <polyline
+         points="695.1 -50.75 1138.63 -50.75"
+         stroke="#880000"
+         id="gge130"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         points="799.63 -30.75 1138.63 -30.75"
+         stroke="#880000"
+         id="gge133"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         points="1059.61 -89.93 1059.63 -50.75"
+         stroke="#880000"
+         id="gge136"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         points="1059.63 -50.75 1059.63 -30.75"
+         stroke="#880000"
+         id="gge139"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <text
+         x="699.99994"
+         y="-77"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="10.6667px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text21">TITLE:</text>
+      <text
+         x="757.62494"
+         y="-64.410004"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="13.3333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text22"><tspan
+           sodipodi:role="line"
+           id="tspan247"
+           x="757.62494"
+           y="-64.410004">LemonRobot</tspan><tspan
+           sodipodi:role="line"
+           id="tspan248"
+           x="757.62494"
+           y="-47.743378" /></text>
+      <text
+         x="1064.625"
+         y="-63.75"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="10.6667px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text23">REV:</text>
+      <text
+         x="1102.625"
+         y="-63.75"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="12px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text24">2.1</text>
+      <text
+         x="804.62494"
+         y="-15"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="10.6667px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text25">Date:</text>
+      <text
+         x="835.63751"
+         y="-14.52"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="12px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text26">2023-08-31</text>
+      <text
+         x="1063.625"
+         y="-35"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="10.6667px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text27">Sheet:</text>
+      <text
+         x="1108.625"
+         y="-34.52"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="12px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text28">1/1</text>
+      <text
+         x="907.54736"
+         y="-15.671875"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="10.6667px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text29">Drawn By:</text>
+      <text
+         x="965.58313"
+         y="-15"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="12px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text30">Ruan Victor Almeida Quirino</text>
+      <text
+         x="804.62494"
+         y="-36.75"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="10.6667px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text31">Company:</text>
+      <text
+         x="866.24994"
+         y="-36.639999"
+         fill="#880000"
+         font-family="Verdana"
+         font-size="12px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text32">LaSCoU</text>
+      <polyline
+         points="799.63 -50.75 799.63 -10.75"
+         stroke="#880000"
+         id="gge214"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <text
+         c_note="note_name"
+         x="382.42001"
+         y="723"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         transform="rotate(-90)"
+         id="text33">ARDUINO_NANO</text>
+      <text
+         c_note="note_pre"
+         x="697"
+         y="-416.75"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         id="text34">U1</text>
+      <rect
+         id="gge271"
+         locked="0"
+         c_etype=""
+         x="535"
+         y="-460"
+         rx="2"
+         ry="2"
+         width="160"
+         height="80"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none" />
+      <circle
+         cx="540"
+         cy="-385"
+         id="gge274"
+         locked="0"
+         stroke="#880000"
+         stroke-width="1"
+         fill="#880000"
+         r="1.5" />
+      <text
+         x="383.70001"
+         y="549"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="D1/TX"
+         transform="rotate(-90)"
+         id="text35">D1/TX</text>
+      <text
+         x="379.5"
+         y="544"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="1"
+         transform="rotate(-90)"
+         id="text36">1</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="545"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle36" />
+      <path
+         d="m 545,-370 v -10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path36" />
+      <text
+         x="383.70001"
+         y="559"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="D0/RX"
+         transform="rotate(-90)"
+         id="text37">D0/RX</text>
+      <text
+         x="379.5"
+         y="554"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="2"
+         transform="rotate(-90)"
+         id="text38">2</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="555"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle38" />
+      <path
+         d="m 555,-370 v -10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path38" />
+      <text
+         x="383.70001"
+         y="569"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="RESET"
+         transform="rotate(-90)"
+         id="text39">RESET</text>
+      <text
+         x="379.5"
+         y="564"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="3"
+         transform="rotate(-90)"
+         id="text40">3</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="565"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle40" />
+      <path
+         d="m 565,-370 v -10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path40" />
+      <text
+         x="383.70001"
+         y="579"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="GND"
+         transform="rotate(-90)"
+         id="text41">GND</text>
+      <text
+         x="379.5"
+         y="574"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="4"
+         transform="rotate(-90)"
+         id="text42">4</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="575"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle42" />
+      <path
+         d="m 575,-370 v -10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path42" />
+      <text
+         x="383.70001"
+         y="589"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="D2"
+         transform="rotate(-90)"
+         id="text43">D2</text>
+      <text
+         x="379.5"
+         y="584"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="5"
+         transform="rotate(-90)"
+         id="text44">5</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="585"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle44" />
+      <path
+         d="m 585,-370 v -10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path44" />
+      <text
+         x="383.70001"
+         y="599"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="D3"
+         transform="rotate(-90)"
+         id="text45">D3</text>
+      <text
+         x="379.5"
+         y="594"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="6"
+         transform="rotate(-90)"
+         id="text46">6</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="595"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle46" />
+      <path
+         d="m 595,-370 v -10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path46" />
+      <text
+         x="383.70001"
+         y="609"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="D4"
+         transform="rotate(-90)"
+         id="text47">D4</text>
+      <text
+         x="379.5"
+         y="604"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="7"
+         transform="rotate(-90)"
+         id="text48">7</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="605"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle48" />
+      <path
+         d="m 605,-370 v -10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path48" />
+      <text
+         x="383.70001"
+         y="619"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="D5"
+         transform="rotate(-90)"
+         id="text49">D5</text>
+      <text
+         x="379.5"
+         y="614"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="8"
+         transform="rotate(-90)"
+         id="text50">8</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="615"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle50" />
+      <path
+         d="m 615,-370 v -10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path50" />
+      <text
+         x="383.70001"
+         y="629"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="D6"
+         transform="rotate(-90)"
+         id="text51">D6</text>
+      <text
+         x="379.5"
+         y="624"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="9"
+         transform="rotate(-90)"
+         id="text52">9</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="625"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle52" />
+      <path
+         d="m 625,-370 v -10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path52" />
+      <text
+         x="383.70001"
+         y="639"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="D7"
+         transform="rotate(-90)"
+         id="text53">D7</text>
+      <text
+         x="379.5"
+         y="634"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="10"
+         transform="rotate(-90)"
+         id="text54">10</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="635"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle54" />
+      <path
+         d="m 635,-370 v -10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path54" />
+      <text
+         x="383.70001"
+         y="649"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="D8"
+         transform="rotate(-90)"
+         id="text55">D8</text>
+      <text
+         x="379.5"
+         y="644"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="11"
+         transform="rotate(-90)"
+         id="text56">11</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="645"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle56" />
+      <path
+         d="m 645,-370 v -10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path56" />
+      <text
+         x="383.70001"
+         y="659"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="D9"
+         transform="rotate(-90)"
+         id="text57">D9</text>
+      <text
+         x="379.5"
+         y="654"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="12"
+         transform="rotate(-90)"
+         id="text58">12</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="655"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle58" />
+      <path
+         d="m 655,-370 v -10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path58" />
+      <text
+         x="383.70001"
+         y="669"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="D10"
+         transform="rotate(-90)"
+         id="text59">D10</text>
+      <text
+         x="379.5"
+         y="664"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="13"
+         transform="rotate(-90)"
+         id="text60">13</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="665"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle60" />
+      <path
+         d="m 665,-370 v -10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path60" />
+      <text
+         x="383.70001"
+         y="679"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="D11"
+         transform="rotate(-90)"
+         id="text61">D11</text>
+      <text
+         x="379.5"
+         y="674"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="14"
+         transform="rotate(-90)"
+         id="text62">14</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="675"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle62" />
+      <path
+         d="m 675,-370 v -10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path62" />
+      <text
+         x="383.70001"
+         y="689"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="D12"
+         transform="rotate(-90)"
+         id="text63">D12</text>
+      <text
+         x="379.5"
+         y="684"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="15"
+         transform="rotate(-90)"
+         id="text64">15</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="685"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle64" />
+      <path
+         d="m 685,-370 v -10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path64" />
+      <text
+         x="456.29999"
+         y="689"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="D13"
+         transform="rotate(-90)"
+         id="text65">D13</text>
+      <text
+         x="460.5"
+         y="684"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="16"
+         transform="rotate(-90)"
+         id="text66">16</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="685"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle66" />
+      <path
+         d="m 685,-470 v 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path66" />
+      <text
+         x="456.29999"
+         y="679"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="3V3"
+         transform="rotate(-90)"
+         id="text67">3V3</text>
+      <text
+         x="460.5"
+         y="674"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="17"
+         transform="rotate(-90)"
+         id="text68">17</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="675"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle68" />
+      <path
+         d="m 675,-470 v 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path68" />
+      <text
+         x="456.29999"
+         y="669"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="AREF"
+         transform="rotate(-90)"
+         id="text69">AREF</text>
+      <text
+         x="460.5"
+         y="664"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="18"
+         transform="rotate(-90)"
+         id="text70">18</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="665"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle70" />
+      <path
+         d="m 665,-470 v 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path70" />
+      <text
+         x="456.29999"
+         y="659"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="A0"
+         transform="rotate(-90)"
+         id="text71">A0</text>
+      <text
+         x="460.5"
+         y="654"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="19"
+         transform="rotate(-90)"
+         id="text72">19</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="655"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle72" />
+      <path
+         d="m 655,-470 v 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path72" />
+      <text
+         x="456.29999"
+         y="649"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="A1"
+         transform="rotate(-90)"
+         id="text73">A1</text>
+      <text
+         x="460.5"
+         y="644"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="20"
+         transform="rotate(-90)"
+         id="text74">20</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="645"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle74" />
+      <path
+         d="m 645,-470 v 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path74" />
+      <text
+         x="456.29999"
+         y="639"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="A2"
+         transform="rotate(-90)"
+         id="text75">A2</text>
+      <text
+         x="460.5"
+         y="634"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="21"
+         transform="rotate(-90)"
+         id="text76">21</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="635"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle76" />
+      <path
+         d="m 635,-470 v 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path76" />
+      <text
+         x="456.29999"
+         y="629"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="A3"
+         transform="rotate(-90)"
+         id="text77">A3</text>
+      <text
+         x="460.5"
+         y="624"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="22"
+         transform="rotate(-90)"
+         id="text78">22</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="625"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle78" />
+      <path
+         d="m 625,-470 v 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path78" />
+      <text
+         x="456.29999"
+         y="619"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="A4"
+         transform="rotate(-90)"
+         id="text79">A4</text>
+      <text
+         x="460.5"
+         y="614"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="23"
+         transform="rotate(-90)"
+         id="text80">23</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="615"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle80" />
+      <path
+         d="m 615,-470 v 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path80" />
+      <text
+         x="456.29999"
+         y="609"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="A5"
+         transform="rotate(-90)"
+         id="text81">A5</text>
+      <text
+         x="460.5"
+         y="604"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="24"
+         transform="rotate(-90)"
+         id="text82">24</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="605"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle82" />
+      <path
+         d="m 605,-470 v 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path82" />
+      <text
+         x="456.29999"
+         y="599"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="A6"
+         transform="rotate(-90)"
+         id="text83">A6</text>
+      <text
+         x="460.5"
+         y="594"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="25"
+         transform="rotate(-90)"
+         id="text84">25</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="595"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle84" />
+      <path
+         d="m 595,-470 v 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path84" />
+      <text
+         x="456.29999"
+         y="589"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="A7"
+         transform="rotate(-90)"
+         id="text85">A7</text>
+      <text
+         x="460.5"
+         y="584"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="26"
+         transform="rotate(-90)"
+         id="text86">26</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="585"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle86" />
+      <path
+         d="m 585,-470 v 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path86" />
+      <text
+         x="456.29999"
+         y="579"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="+5V"
+         transform="rotate(-90)"
+         id="text87">+5V</text>
+      <text
+         x="460.5"
+         y="574"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="27"
+         transform="rotate(-90)"
+         id="text88">27</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="575"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle88" />
+      <path
+         d="m 575,-470 v 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path88" />
+      <text
+         x="456.29999"
+         y="569"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="RESET"
+         transform="rotate(-90)"
+         id="text89">RESET</text>
+      <text
+         x="460.5"
+         y="564"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="28"
+         transform="rotate(-90)"
+         id="text90">28</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="565"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle90" />
+      <path
+         d="m 565,-470 v 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path90" />
+      <text
+         x="456.29999"
+         y="559"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="GND"
+         transform="rotate(-90)"
+         id="text91">GND</text>
+      <text
+         x="460.5"
+         y="554"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="29"
+         transform="rotate(-90)"
+         id="text92">29</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="555"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle92" />
+      <path
+         d="m 555,-470 v 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path92" />
+      <text
+         x="456.29999"
+         y="549"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="VIN"
+         transform="rotate(-90)"
+         id="text93">VIN</text>
+      <text
+         x="460.5"
+         y="544"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="30"
+         transform="rotate(-90)"
+         id="text94">30</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="545"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle94" />
+      <path
+         d="m 545,-470 v 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path94" />
+      <text
+         c_note="note_name"
+         x="542.42999"
+         y="968.21002"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         transform="rotate(-90)"
+         id="text95">ADAFRUIT_VL530X</text>
+      <text
+         c_note="note_pre"
+         x="918.03998"
+         y="-672"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         id="text96">U5</text>
+      <text
+         x="917"
+         y="-537"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="VIN"
+         id="text97">VIN</text>
+      <text
+         x="890"
+         y="-541"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="1"
+         id="text98">1</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-540"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle98" />
+      <path
+         d="m 895,-540 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path98" />
+      <text
+         x="917"
+         y="-557"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="GND"
+         id="text99">GND</text>
+      <text
+         x="890"
+         y="-561"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="2"
+         id="text100">2</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-560"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle100" />
+      <path
+         d="m 895,-560 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path100" />
+      <text
+         x="917"
+         y="-577"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="SCL"
+         id="text101">SCL</text>
+      <text
+         x="890"
+         y="-581"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="3"
+         id="text102">3</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-580"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle102" />
+      <path
+         d="m 895,-580 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path102" />
+      <text
+         x="917"
+         y="-597"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="SDA"
+         id="text103">SDA</text>
+      <text
+         x="890"
+         y="-601"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="4"
+         id="text104">4</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-600"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle104" />
+      <path
+         d="m 895,-600 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path104" />
+      <text
+         x="917"
+         y="-617"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="GPIO"
+         id="text105">GPIO</text>
+      <text
+         x="890"
+         y="-621"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="5"
+         id="text106">5</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-620"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle106" />
+      <path
+         d="m 895,-620 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path106" />
+      <text
+         x="917"
+         y="-637"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="XSHUT"
+         id="text107">XSHUT</text>
+      <text
+         x="890"
+         y="-641"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="6"
+         id="text108">6</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-640"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle108" />
+      <path
+         d="m 895,-640 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path108" />
+      <rect
+         id="gge7679"
+         locked="0"
+         c_etype=""
+         x="915"
+         y="-660"
+         width="40"
+         height="140"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none" />
+      <text
+         c_note="note_name"
+         x="367.43002"
+         y="968.21002"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         transform="rotate(-90)"
+         id="text109">ADAFRUIT_VL530X</text>
+      <text
+         c_note="note_pre"
+         x="918.03998"
+         y="-502"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         id="text110">U6</text>
+      <text
+         x="917"
+         y="-367"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="VIN"
+         id="text111">VIN</text>
+      <text
+         x="890"
+         y="-371"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="1"
+         id="text112">1</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle112" />
+      <path
+         d="m 895,-370 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path112" />
+      <text
+         x="917"
+         y="-387"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="GND"
+         id="text113">GND</text>
+      <text
+         x="890"
+         y="-391"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="2"
+         id="text114">2</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-390"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle114" />
+      <path
+         d="m 895,-390 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path114" />
+      <text
+         x="917"
+         y="-407"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="SCL"
+         id="text115">SCL</text>
+      <text
+         x="890"
+         y="-411"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="3"
+         id="text116">3</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-410"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle116" />
+      <path
+         d="m 895,-410 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path116" />
+      <text
+         x="917"
+         y="-427"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="SDA"
+         id="text117">SDA</text>
+      <text
+         x="890"
+         y="-431"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="4"
+         id="text118">4</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-430"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle118" />
+      <path
+         d="m 895,-430 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path118" />
+      <text
+         x="917"
+         y="-447"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="GPIO"
+         id="text119">GPIO</text>
+      <text
+         x="890"
+         y="-451"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="5"
+         id="text120">5</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-450"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle120" />
+      <path
+         d="m 895,-450 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path120" />
+      <text
+         x="917"
+         y="-467"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="XSHUT"
+         id="text121">XSHUT</text>
+      <text
+         x="890"
+         y="-471"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="6"
+         id="text122">6</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle122" />
+      <path
+         d="m 895,-470 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path122" />
+      <rect
+         id="gge7826"
+         locked="0"
+         c_etype=""
+         x="915"
+         y="-490"
+         width="40"
+         height="140"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none" />
+      <text
+         c_note="note_name"
+         x="202.35001"
+         y="968"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         transform="rotate(-90)"
+         id="text123">ADAFRUIT_VL530X</text>
+      <text
+         c_note="note_pre"
+         x="918.03998"
+         y="-332"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         id="text124">U7</text>
+      <text
+         x="917"
+         y="-197"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="VIN"
+         id="text125">VIN</text>
+      <text
+         x="890"
+         y="-201"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="1"
+         id="text126">1</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-200"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle126" />
+      <path
+         d="m 895,-200 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path126" />
+      <text
+         x="917"
+         y="-217"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="GND"
+         id="text127">GND</text>
+      <text
+         x="890"
+         y="-221"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="2"
+         id="text128">2</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-220"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle128" />
+      <path
+         d="m 895,-220 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path128" />
+      <text
+         x="917"
+         y="-237"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="SCL"
+         id="text129">SCL</text>
+      <text
+         x="890"
+         y="-241"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="3"
+         id="text130">3</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-240"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle130" />
+      <path
+         d="m 895,-240 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path130" />
+      <text
+         x="917"
+         y="-257"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="SDA"
+         id="text131">SDA</text>
+      <text
+         x="890"
+         y="-261"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="4"
+         id="text132">4</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-260"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle132" />
+      <path
+         d="m 895,-260 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path132" />
+      <text
+         x="917"
+         y="-277"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="GPIO"
+         id="text133">GPIO</text>
+      <text
+         x="890"
+         y="-281"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="5"
+         id="text134">5</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-280"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle134" />
+      <path
+         d="m 895,-280 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path134" />
+      <text
+         x="917"
+         y="-297"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="XSHUT"
+         id="text135">XSHUT</text>
+      <text
+         x="890"
+         y="-301"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="6"
+         id="text136">6</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="895"
+         cy="-300"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle136" />
+      <path
+         d="m 895,-300 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path136" />
+      <rect
+         id="gge7973"
+         locked="0"
+         c_etype=""
+         x="915"
+         y="-320"
+         width="40"
+         height="140"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none" />
+      <text
+         c_note="note_pre"
+         x="249.03999"
+         y="-492"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         id="text138">U2</text>
+      <polyline
+         points="180 -480 330 -480 330 -420 180 -420 180 -480"
+         stroke="#880000"
+         id="gge8614"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <text
+         x="328"
+         y="-467"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="OUT +"
+         id="text139">OUT +</text>
+      <text
+         x="335"
+         y="-471"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="1"
+         id="text140">1</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="340"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle140" />
+      <path
+         d="M 340,-470 H 330"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path140" />
+      <text
+         x="328"
+         y="-427"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="OUT -"
+         id="text141">OUT -</text>
+      <text
+         x="335"
+         y="-431"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="2"
+         id="text142">2</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="340"
+         cy="-430"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle142" />
+      <path
+         d="M 340,-430 H 330"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path142" />
+      <text
+         x="182"
+         y="-467"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="IN +"
+         id="text143">IN +</text>
+      <text
+         x="175"
+         y="-471"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="3"
+         id="text144">3</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="170"
+         cy="-470"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle144" />
+      <path
+         d="m 170,-470 h 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path144" />
+      <text
+         x="182"
+         y="-427"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="IN -"
+         id="text145">IN -</text>
+      <text
+         x="175"
+         y="-431"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="4"
+         id="text146">4</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="170"
+         cy="-430"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle146" />
+      <path
+         d="m 170,-430 h 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path146" />
+      <text
+         x="235.06"
+         y="-446.89001"
+         fill="#0000ff"
+         font-family="Verdana"
+         font-size="12px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text147">LM2596</text>
+      <text
+         c_note="note_pre"
+         x="249.03999"
+         y="-342"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         id="text149">U3</text>
+      <polyline
+         points="180 -410 330 -410 330 -350 180 -350 180 -410"
+         stroke="#880000"
+         id="gge8725"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <text
+         x="328"
+         y="-397"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="OUT +"
+         id="text150">OUT +</text>
+      <text
+         x="335"
+         y="-401"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="1"
+         id="text151">1</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="340"
+         cy="-400"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle151" />
+      <path
+         d="M 340,-400 H 330"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path151" />
+      <text
+         x="328"
+         y="-357"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="OUT -"
+         id="text152">OUT -</text>
+      <text
+         x="335"
+         y="-361"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="2"
+         id="text153">2</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="340"
+         cy="-360"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle153" />
+      <path
+         d="M 340,-360 H 330"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path153" />
+      <text
+         x="182"
+         y="-397"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="IN +"
+         id="text154">IN +</text>
+      <text
+         x="175"
+         y="-401"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="3"
+         id="text155">3</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="170"
+         cy="-400"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle155" />
+      <path
+         d="m 170,-400 h 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path155" />
+      <text
+         x="182"
+         y="-357"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="IN -"
+         id="text156">IN -</text>
+      <text
+         x="175"
+         y="-361"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="4"
+         id="text157">4</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="170"
+         cy="-360"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle157" />
+      <path
+         d="m 170,-360 h 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path157" />
+      <text
+         x="235"
+         y="-375"
+         fill="#0000ff"
+         font-family="Verdana"
+         font-size="12px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text158">LM2596</text>
+      <text
+         c_note="note_name"
+         x="360.01999"
+         y="63.250011"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         transform="rotate(-90)"
+         id="text159">BATTERY HOLDER, 18650, 4x</text>
+      <text
+         c_note="note_pre"
+         x="69.790001"
+         y="-401.75"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         id="text160">BAT1.1</text>
+      <text
+         x="440"
+         y="104"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="1"
+         transform="rotate(-90)"
+         id="text162">1</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="105"
+         cy="-455"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle162" />
+      <path
+         d="m 105,-455 v 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path162" />
+      <text
+         x="400"
+         y="104"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="2"
+         transform="rotate(-90)"
+         id="text164">2</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="105"
+         cy="-385"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle164" />
+      <path
+         d="m 105,-385 v -20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path164" />
+      <polyline
+         points="135 -425 75 -425"
+         stroke="#880000"
+         id="gge10405"
+         locked="0"
+         stroke-width="3"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         points="115 -415 95 -415"
+         stroke="#880000"
+         id="gge10408"
+         locked="0"
+         stroke-width="4"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         points="105 -435 105 -425"
+         stroke="#880000"
+         id="gge10411"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         points="105 -405 105 -415"
+         stroke="#880000"
+         id="gge10414"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="170 -360 150 -360 150 -385"
+         stroke="#000000"
+         id="gge10495"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <text
+         c_note="note_name"
+         x="550.67999"
+         y="-231.78999"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         id="text165">Servomotor</text>
+      <text
+         c_note="note_pre"
+         x="607"
+         y="-252.5"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         id="text166">U4</text>
+      <rect
+         id="gge11873"
+         locked="0"
+         c_etype=""
+         x="545"
+         y="-265"
+         width="60"
+         height="40"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none" />
+      <text
+         x="263"
+         y="568"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="GND"
+         transform="rotate(-90)"
+         id="text167">GND</text>
+      <text
+         x="270"
+         y="564"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="1"
+         transform="rotate(-90)"
+         id="text168">1</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="565"
+         cy="-285"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle168" />
+      <path
+         d="m 565,-285 v 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path168" />
+      <text
+         x="263"
+         y="578"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="VCC"
+         transform="rotate(-90)"
+         id="text169">VCC</text>
+      <text
+         x="270"
+         y="574"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="2"
+         transform="rotate(-90)"
+         id="text170">2</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="575"
+         cy="-285"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle170" />
+      <path
+         d="m 575,-285 v 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path170" />
+      <text
+         x="263"
+         y="588"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinname="PWM"
+         transform="rotate(-90)"
+         id="text171">PWM</text>
+      <text
+         x="270"
+         y="584"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="3"
+         transform="rotate(-90)"
+         id="text172">3</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="585"
+         cy="-285"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle172" />
+      <path
+         d="m 585,-285 v 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path172" />
+      <text
+         c_note="note_name"
+         x="598.84998"
+         y="-566.78998"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="end"
+         id="text173">Servomotor</text>
+      <text
+         c_note="note_pre"
+         x="580.96997"
+         y="-592.33002"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         id="text174">U8</text>
+      <rect
+         id="gge11957"
+         locked="0"
+         c_etype=""
+         x="545"
+         y="-580"
+         width="60"
+         height="40"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none" />
+      <text
+         x="542"
+         y="568"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="GND"
+         transform="rotate(-90)"
+         id="text175">GND</text>
+      <text
+         x="535"
+         y="564"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="1"
+         transform="rotate(-90)"
+         id="text176">1</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="565"
+         cy="-520"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle176" />
+      <path
+         d="m 565,-520 v -20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path176" />
+      <text
+         x="542"
+         y="578"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="VCC"
+         transform="rotate(-90)"
+         id="text177">VCC</text>
+      <text
+         x="535"
+         y="574"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="2"
+         transform="rotate(-90)"
+         id="text178">2</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="575"
+         cy="-520"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle178" />
+      <path
+         d="m 575,-520 v -20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path178" />
+      <text
+         x="542"
+         y="588"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="PWM"
+         transform="rotate(-90)"
+         id="text179">PWM</text>
+      <text
+         x="535"
+         y="584"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="3"
+         transform="rotate(-90)"
+         id="text180">3</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="585"
+         cy="-520"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle180" />
+      <path
+         d="m 585,-520 v -20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path180" />
+      <text
+         c_note="note_pre"
+         x="483.03"
+         y="-677.66998"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         id="text182">U9</text>
+      <text
+         x="397"
+         y="-652"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="A0"
+         id="text183">A0</text>
+      <text
+         x="390"
+         y="-656"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="1"
+         id="text184">1</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="375"
+         cy="-655"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle184" />
+      <path
+         d="m 375,-655 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path184" />
+      <text
+         x="397"
+         y="-632"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="D0"
+         id="text185">D0</text>
+      <text
+         x="390"
+         y="-636"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="2"
+         id="text186">2</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="375"
+         cy="-635"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle186" />
+      <path
+         d="m 375,-635 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path186" />
+      <text
+         x="397"
+         y="-612"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="GND"
+         id="text187">GND</text>
+      <text
+         x="390"
+         y="-616"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="3"
+         id="text188">3</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="375"
+         cy="-615"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle188" />
+      <path
+         d="m 375,-615 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path188" />
+      <text
+         x="397"
+         y="-592"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="VCC"
+         id="text189">VCC</text>
+      <text
+         x="390"
+         y="-596"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="4"
+         id="text190">4</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="375"
+         cy="-595"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle190" />
+      <path
+         d="m 375,-595 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path190" />
+      <rect
+         id="gge16778"
+         locked="0"
+         c_etype=""
+         x="385"
+         y="-665"
+         width="220"
+         height="80"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none" />
+      <circle
+         cx="580"
+         cy="-640"
+         id="gge16781"
+         locked="0"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none"
+         r="5" />
+      <text
+         x="420"
+         y="-625"
+         fill="#0000ff"
+         font-family="Verdana"
+         font-size="12px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text191">MH-SENSOR-SERIES</text>
+      <circle
+         cx="580"
+         cy="-610"
+         id="gge16790"
+         locked="0"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none"
+         r="5" />
+      <text
+         c_note="note_pre"
+         x="483.03"
+         y="-232.67"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         id="text193">U10</text>
+      <text
+         x="397"
+         y="-207"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="A0"
+         id="text194">A0</text>
+      <text
+         x="390"
+         y="-211"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="1"
+         id="text195">1</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="375"
+         cy="-210"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle195" />
+      <path
+         d="m 375,-210 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path195" />
+      <text
+         x="397"
+         y="-187"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="D0"
+         id="text196">D0</text>
+      <text
+         x="390"
+         y="-191"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="2"
+         id="text197">2</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="375"
+         cy="-190"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle197" />
+      <path
+         d="m 375,-190 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path197" />
+      <text
+         x="397"
+         y="-167"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="GND"
+         id="text198">GND</text>
+      <text
+         x="390"
+         y="-171"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="3"
+         id="text199">3</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="375"
+         cy="-170"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle199" />
+      <path
+         d="m 375,-170 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path199" />
+      <text
+         x="397"
+         y="-147"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinname="VCC"
+         id="text200">VCC</text>
+      <text
+         x="390"
+         y="-151"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="4"
+         id="text201">4</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="375"
+         cy="-150"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle201" />
+      <path
+         d="m 375,-150 h 20"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path201" />
+      <rect
+         id="gge16895"
+         locked="0"
+         c_etype=""
+         x="385"
+         y="-220"
+         width="220"
+         height="80"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none" />
+      <circle
+         cx="580"
+         cy="-195"
+         id="gge16898"
+         locked="0"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none"
+         r="5" />
+      <text
+         x="435"
+         y="-180"
+         fill="#0000ff"
+         font-family="Verdana"
+         font-size="12px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         type="comment"
+         id="text202">MH-SENSOR-SERIES</text>
+      <circle
+         cx="580"
+         cy="-165"
+         id="gge16907"
+         locked="0"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none"
+         r="5" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="545 -470 340 -470"
+         stroke="#ff0000"
+         id="gge17027"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="340 -430 525 -430 525 -480 555 -480 555 -470"
+         stroke="#000000"
+         id="gge17030"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="895 -560 855 -560 855 -480 555 -480"
+         stroke="#000000"
+         id="gge17033"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="895 -390 855 -390 855 -480"
+         stroke="#000000"
+         id="gge17037"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="895 -220 855 -220 855 -390"
+         stroke="#000000"
+         id="gge17041"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="895 -200 845 -200 845 -490 575 -490 575 -470"
+         stroke="#ff0000"
+         id="gge17307"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="895 -370 845 -370"
+         stroke="#ff0000"
+         id="gge17310"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="895 -540 845 -540 845 -490"
+         stroke="#ff0000"
+         id="gge17314"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="340 -360 505 -360 505 -300 565 -300 565 -285"
+         stroke="#000000"
+         id="gge17318"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="565 -520 565 -510 505 -510 505 -360"
+         stroke="#000000"
+         id="gge17321"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="340 -400 515 -400 515 -500 575 -500 575 -520"
+         stroke="#ff0000"
+         id="gge17325"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="575 -285 575 -310 515 -310 515 -400"
+         stroke="#ff0000"
+         id="gge17328"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="585 -285 585 -290 675 -290 675 -375"
+         stroke="#0000ff"
+         id="gge17332"
+         locked="0"
+         stroke-width="1"
+         stroke-dasharray="6, 6"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="665 -370 665 -330 705 -330 705 -520 585 -520"
+         stroke="#ff0000"
+         id="gge17338"
+         locked="0"
+         stroke-width="1"
+         stroke-dasharray="6, 6"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="615 -470 615 -500 835 -500 835 -580 895 -580"
+         stroke="#00ff00"
+         id="gge17341"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="895 -240 835 -240 835 -500"
+         stroke="#00ff00"
+         id="gge17344"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="895 -410 835 -410"
+         stroke="#00ff00"
+         id="gge17357"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="895 -600 825 -600 825 -260 895 -260"
+         stroke="#ff00ff"
+         id="gge17361"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="895 -430 825 -430"
+         stroke="#ff00ff"
+         id="gge17364"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="605 -470 605 -510 825 -510"
+         stroke="#ff00ff"
+         id="gge17368"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="895 -300 625 -300 625 -370"
+         stroke="#0000ff"
+         id="gge17375"
+         locked="0"
+         stroke-width="1"
+         stroke-dasharray="6, 6"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="645 -370 645 -320 805 -320 805 -470 895 -470"
+         stroke="#008800"
+         id="gge17381"
+         locked="0"
+         stroke-width="1"
+         stroke-dasharray="6, 6"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="615 -370 615 -340 370 -340 370 -595 375 -595"
+         stroke="#ff0000"
+         id="gge17384"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="375 -150 370 -150 370 -340"
+         stroke="#ff0000"
+         id="gge17387"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="375 -615 360 -615 360 -330 605 -330 605 -370"
+         stroke="#000000"
+         id="gge17391"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="375 -170 360 -170 360 -330"
+         stroke="#000000"
+         id="gge17394"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="585 -370 585 -320 350 -320 350 -190 375 -190"
+         stroke="#0000ff"
+         id="gge17398"
+         locked="0"
+         stroke-width="1"
+         stroke-dasharray="6, 6"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="595 -370 595 -350 350 -350 350 -635 375 -635"
+         stroke="#cc0000"
+         id="gge17401"
+         locked="0"
+         stroke-width="1"
+         stroke-dasharray="6, 6"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="895 -640 815 -640 815 -310 635 -310 635 -370"
+         stroke="#ff0000"
+         id="gge17450"
+         locked="0"
+         stroke-width="1"
+         stroke-dasharray="6, 6"
+         fill="none"
+         stroke-linecap="round" />
+      <text
+         c_note="note_pre"
+         x="114.89"
+         y="-446.84"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         id="text204">SW1</text>
+      <polyline
+         points="119 -457 131 -460"
+         stroke="#880000"
+         id="gge23330"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <text
+         x="137"
+         y="-455"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="2"
+         id="text206">2</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="145"
+         cy="-455"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle206" />
+      <path
+         d="M 145,-455 H 135"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path206" />
+      <text
+         x="113"
+         y="-455"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="1"
+         id="text208">1</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="105"
+         cy="-455"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle208" />
+      <path
+         d="m 105,-455 h 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path208" />
+      <circle
+         cx="130"
+         cy="-455"
+         id="gge23375"
+         locked="0"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none"
+         r="1" />
+      <circle
+         cx="120"
+         cy="-455"
+         id="gge23378"
+         locked="0"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none"
+         r="1" />
+      <polyline
+         points="135 -455 131 -455"
+         stroke="#880000"
+         id="gge23381"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         points="115 -455 119 -455"
+         stroke="#880000"
+         id="gge23384"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="145 -455 160 -455"
+         stroke="#ff0000"
+         id="gge23392"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="105 -385 150 -385"
+         stroke="#000000"
+         id="gge23689"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="150 -385 150 -430 170 -430"
+         stroke="#000000"
+         id="gge23692"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <text
+         c_note="note_pre"
+         x="409.89001"
+         y="173.32999"
+         fill="#000080"
+         font-family="Arial"
+         font-size="9.33333px"
+         font-weight=""
+         font-style=""
+         dominant-baseline=""
+         text-anchor="start"
+         transform="rotate(-90)"
+         id="text210">SW2</text>
+      <polyline
+         points="158 -414 155 -426"
+         stroke="#880000"
+         id="gge23719"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <text
+         x="432"
+         y="160"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="start"
+         c_pinnumber="2"
+         transform="rotate(-90)"
+         id="text212">2</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="160"
+         cy="-440"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle212" />
+      <path
+         d="m 160,-440 v 10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path212" />
+      <text
+         x="408"
+         y="160"
+         font-family="Verdana"
+         font-size="9.33333px"
+         fill="#0000ff"
+         text-anchor="end"
+         c_pinnumber="1"
+         transform="rotate(-90)"
+         id="text214">1</text>
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="160"
+         cy="-400"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle214" />
+      <path
+         d="m 160,-400 v -10"
+         fill="none"
+         stroke="#880000"
+         stroke-width="1"
+         id="path214" />
+      <circle
+         cx="160"
+         cy="-425"
+         id="gge23764"
+         locked="0"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none"
+         r="1" />
+      <circle
+         cx="160"
+         cy="-415"
+         id="gge23767"
+         locked="0"
+         stroke="#880000"
+         stroke-width="1"
+         fill="none"
+         r="1" />
+      <polyline
+         points="160 -430 160 -426"
+         stroke="#880000"
+         id="gge23770"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         points="160 -410 160 -414"
+         stroke="#880000"
+         id="gge23773"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="170 -400 160 -400"
+         stroke="#ff0000"
+         id="gge23787"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <polyline
+         c_etype="wire"
+         c_shapetype="line"
+         points="160 -440 160 -470 170 -470"
+         stroke="#ff0000"
+         id="gge23790"
+         locked="0"
+         stroke-width="1"
+         fill="none"
+         stroke-linecap="round" />
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="160"
+         cy="-455"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle216" />
+      <circle
+         cx="160"
+         cy="-455"
+         r="2.5"
+         fill="#cc0000"
+         stroke-width="1"
+         id="circle217" />
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="555"
+         cy="-480"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle218" />
+      <circle
+         cx="555"
+         cy="-480"
+         r="2.5"
+         fill="#cc0000"
+         stroke-width="1"
+         id="circle219" />
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="855"
+         cy="-480"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle220" />
+      <circle
+         cx="855"
+         cy="-480"
+         r="2.5"
+         fill="#cc0000"
+         stroke-width="1"
+         id="circle221" />
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="855"
+         cy="-390"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle222" />
+      <circle
+         cx="855"
+         cy="-390"
+         r="2.5"
+         fill="#cc0000"
+         stroke-width="1"
+         id="circle223" />
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="845"
+         cy="-490"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle224" />
+      <circle
+         cx="845"
+         cy="-490"
+         r="2.5"
+         fill="#cc0000"
+         stroke-width="1"
+         id="circle225" />
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="515"
+         cy="-400"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle226" />
+      <circle
+         cx="515"
+         cy="-400"
+         r="2.5"
+         fill="#cc0000"
+         stroke-width="1"
+         id="circle227" />
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="835"
+         cy="-500"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle228" />
+      <circle
+         cx="835"
+         cy="-500"
+         r="2.5"
+         fill="#cc0000"
+         stroke-width="1"
+         id="circle229" />
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="370"
+         cy="-340"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle230" />
+      <circle
+         cx="370"
+         cy="-340"
+         r="2.5"
+         fill="#cc0000"
+         stroke-width="1"
+         id="circle231" />
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="825"
+         cy="-510"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle232" />
+      <circle
+         cx="825"
+         cy="-510"
+         r="2.5"
+         fill="#cc0000"
+         stroke-width="1"
+         id="circle233" />
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="825"
+         cy="-430"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle234" />
+      <circle
+         cx="825"
+         cy="-430"
+         r="2.5"
+         fill="#cc0000"
+         stroke-width="1"
+         id="circle235" />
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="835"
+         cy="-410"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle236" />
+      <circle
+         cx="835"
+         cy="-410"
+         r="2.5"
+         fill="#cc0000"
+         stroke-width="1"
+         id="circle237" />
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="845"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle238" />
+      <circle
+         cx="845"
+         cy="-370"
+         r="2.5"
+         fill="#cc0000"
+         stroke-width="1"
+         id="circle239" />
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="675"
+         cy="-370"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle240" />
+      <circle
+         cx="675"
+         cy="-370"
+         r="2.5"
+         fill="#cc0000"
+         stroke-width="1"
+         id="circle241" />
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="360"
+         cy="-330"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle242" />
+      <circle
+         cx="360"
+         cy="-330"
+         r="2.5"
+         fill="#cc0000"
+         stroke-width="1"
+         id="circle243" />
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="150"
+         cy="-385"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle244" />
+      <circle
+         cx="150"
+         cy="-385"
+         r="2.5"
+         fill="#cc0000"
+         stroke-width="1"
+         id="circle245" />
+      <circle
+         c_pindot="true"
+         class="pindot"
+         cx="505"
+         cy="-360"
+         r="2"
+         fill="none"
+         stroke="none"
+         id="circle246" />
+      <circle
+         cx="505"
+         cy="-360"
+         r="2.5"
+         fill="#cc0000"
+         stroke-width="1"
+         id="circle247" />
+    </g>
+  </g>
+  <metadata
+     id="metadata249">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Sheet_2</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
