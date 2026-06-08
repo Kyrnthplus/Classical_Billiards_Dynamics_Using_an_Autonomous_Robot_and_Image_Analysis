@@ -8,7 +8,7 @@ data/raw/*
 
 # Ignorar completamente a pasta source (legado histórico local não publicado no git)
 source/
-
+audit/
 # Caches do Python e arquivos temporários do editor
 __pycache__/
 *.pyc
