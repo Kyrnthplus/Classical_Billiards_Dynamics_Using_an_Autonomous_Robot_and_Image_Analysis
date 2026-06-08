@@ -6,18 +6,8 @@ data/results/*
 data/raw/*
 !data/raw/.gitkeep
 
-# Ignorar pastas de descarte e dados gerados no histórico legado
-source/APR2.4 (Dissertação)/DadosCrus/
-source/APR2.4 (Dissertação)/DadosExp/
-source/APR2.4 (Dissertação)/DadosTratados/
-source/APR2.4 (Dissertação)/DadosTratadosSimulados/
-source/APR2.4 (Dissertação)/Gráficos/
-source/APR2.4 (Dissertação)/Lyapunov/
-source/APR2.4 (Dissertação)/Old/
-source/APR2.4 (Dissertação)/Outros/
-source/APR2.4 (Dissertação)/Passo/
-source/APR2.4 (Dissertação)/Passo3d/
-source/APR2.4 (Dissertação)/LyapGamma/
+# Ignorar completamente a pasta source (legado histórico local não publicado no git)
+source/
 
 # Caches do Python e arquivos temporários do editor
 __pycache__/
