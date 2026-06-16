@@ -15,8 +15,7 @@ This repository contains the modeling files, schematics, embedded robot control 
 └── data_pipeline/
     ├── 01_frame_extractor/    # Image processing: Video (Frames) -> Coordinates
     ├── 02_collision_detector/ # Data processing: Trajectories -> Collisions
-    ├── 03_analysis/           # Nonlinear dynamics: Phase Space & Lyapunov Exponents
-    └── 04_simulator/          # Numerical simulation of the billiard trajectories
+    └── 03_analysis/           # Nonlinear dynamics: Phase Space & Lyapunov Exponents
 ```
 
 ## Scientific Data Flow
@@ -25,7 +24,6 @@ This repository contains the modeling files, schematics, embedded robot control 
 2. **Extraction**: The `data_pipeline/01_frame_extractor/` module performs planar tracking on video frames, converting visual markers into time-series coordinates.
 3. **Detection**: The `data_pipeline/02_collision_detector/` module processes velocity discontinuities in coordinates to locate exact collision times and vectors.
 4. **Dynamics Analysis**: The `data_pipeline/03_analysis/` module uses collision states to reconstruct the phase space (Poincaré map) and compute the Lyapunov exponent, quantifying chaotic divergence.
-5. **Simulation**: The `data_pipeline/04_simulator/` module generates numerical trajectories to validate experimental observations.
 
 ### Experimental Flowchart
 
