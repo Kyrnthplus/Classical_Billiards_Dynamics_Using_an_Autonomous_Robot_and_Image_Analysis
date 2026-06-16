@@ -1,4 +1,4 @@
-# Lemon Billiard - Master's Research Project
+# Robot Billiard - Master's Research Project
 
 This repository contains the modeling files, schematics, embedded robot control code, and processing pipeline for the chaotic lemon billiard experiment.
 
