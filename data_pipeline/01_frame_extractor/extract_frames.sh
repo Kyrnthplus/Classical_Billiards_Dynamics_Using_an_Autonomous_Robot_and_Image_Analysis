@@ -8,9 +8,9 @@ VIDEO_DIR="$ROOT_DIR/data/raw/video"
 
 cd "$VIDEO_DIR" || exit 1
 
-echo "Cleaning old JPEG directory..."
-rm -rf JPEG
-mkdir -p JPEG
+echo "Cleaning old images directory..."
+rm -rf images
+mkdir -p images
 
 # Loop over video files in data/raw/video/
 for i in *.mp4 *.MP4 *.avi *.AVI *.mkv *.mov; do
@@ -19,12 +19,12 @@ for i in *.mp4 *.MP4 *.avi *.AVI *.mkv *.mov; do
     
     echo "Processing video: $i"
     # Extract frames in grayscale, keeping original scale and naming based on video
-    ffmpeg -i "$i" -vf "scale=iw:ih,format=gray" "JPEG/${i%.*}-%07d.jpg"
+    ffmpeg -i "$i" -vf "scale=iw:ih,format=gray" "images/${i%.*}-%07d.jpg"
 done
 
 if [ $? -eq 0 ]; then
-    FRAME_COUNT=$(find JPEG -type f -name "*.jpg" 2>/dev/null | wc -l)
-    echo "Success! $FRAME_COUNT frames extracted in 'data/raw/video/JPEG/'."
+    FRAME_COUNT=$(find images -type f -name "*.jpg" 2>/dev/null | wc -l)
+    echo "Success! $FRAME_COUNT frames extracted in 'data/raw/video/images/'."
 else
     echo "Error processing videos with ffmpeg."
     exit 1

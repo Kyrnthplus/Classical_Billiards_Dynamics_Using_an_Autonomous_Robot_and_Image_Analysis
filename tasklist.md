@@ -1,20 +1,62 @@
-# Master's Project Pending Checklist - Lemon Billiard
+# Lista de Tarefas (Tasklist) - Lemon Billiard
 
-This document lists all tasks required to complete the objectives of the master's research project, categorized by areas of development.
+Esta lista de tarefas descreve o progresso e as atividades pendentes para a conclusão do projeto, estruturada de forma lógica de acordo com dependências técnicas e operacionais.
 
-## 1. Documentation and Planning
-- [x] **Compile robot manuals**: Gather and reference datasheets and manuals of components in `docs/manuals/` (completed: [datasheets.bib](file:///media/Externos/HDEX/Dropbox/Obsidian/Quirino/10 - Anexos/10.03 - Projetos/10.03.12 - Lemon_Billiard/docs/manuals/datasheets.bib)).
-- [x] **Electronic schematics**: Draw and include schematic diagrams of the robot circuitry (Arduino connections, drivers, sensors) in `docs/circuit/` (completed: `schema.svg` and `schema_lemon_robot.png`).
+---
 
-## 2. Hardware and 3D Printing
-- [x] **CAD file organization**: Catalog and upload the final 3D modeling files (`.stl`) to the folder `hardware/3d_printing/` (completed: `LemonRobot.stl`).
-- [x] **Slicing configuration**: Create a descriptive file containing the ideal printing parameters (temperatures, infill density, print speed, support) for the parts (completed: [slicing_config.md](file:///media/Externos/HDEX/Dropbox/Obsidian/Quirino/10 - Anexos/10.03 - Projetos/10.03.12 - Lemon_Billiard/hardware/3d_printing/slicing_config.md)).
+## 1. Ajustes de Modelagem e Hardware (Base Física)
 
-## 3. Robot Software (Embedded Firmware)
-- [x] **File structure**: Move the embedded control source code of the robot (Arduino firmware) to the folder `robot_software/` (completed: `RobotLemon_v1.ino`).
-- [ ] **Refactoring and documentation**: Clean the embedded code, organize functions for motion and sensor readings, and document key robot control parameters.
+- [x] **Ajustar nomenclatura dos arquivos `.stl`**
+  - *Objetivo*: Remover o termo "lemon" de todos os arquivos de modelagem 3D para padronização.
+- [x] **Ajustar nomenclatura dos esquemas de circuitos**
+  - *Objetivo*: Remover o termo "lemon" dos esquemas de circuitos e arquivos de PCB associados.
+- [x] **Comentários explicativos no firmware do robô**
+  - *Objetivo*: Adicionar documentação e comentários explicativos no código-fonte principal de controle do firmware.
 
-## 4. Data Processing and Analysis Pipeline
-- [ ] **Real trajectory tracking**: Execute the MATLAB script `data_pipeline/01_frame_extractor/robo_stadium_mac.m` to process video sequences of real physical experiments and extract raw coordinates to `data/raw/`.
-- [ ] **Batch processing execution**: Run the modular pipeline (`main.py` options 2 and 3) to process raw coordinates, calculate geometric coefficients ($\gamma$), Lyapunov exponents ($\lambda$), and generate Poincaré maps under `data/results/`.
-- [ ] **Comparative analysis**: Compare experimental results with numerical data from the simulator (`simulator.py`) to validate the chaotic billiard model.
+---
+
+## 2. Referências Bibliográficas (Solicitação do Orientador)
+
+- [x] **Inserir citações de componentes no LaTeX**
+  - *Objetivo*: Incluir citações bibliográficas para os componentes físicos/eletrônicos (servomotores, baterias, conversores, sensores e encoders) em [2026_InstrumentationBilliards.tex](file:///media/Externos/HDEX/Dropbox/Obsidian/Quirino/10%20-%20Anexos/10.03%20-%20Projetos/10.03.12%20-%20Lemon_Billiard/.2026/2026_InstrumentationBilliards.tex).
+- [x] **Criar arquivo `.bib` consolidado para o Overleaf**
+  - *Objetivo*: Gerar [componentes_robot.bib](file:///media/Externos/HDEX/Dropbox/Obsidian/Quirino/10%20-%20Anexos/10.03%20-%20Projetos/10.03.12%20-%20Lemon_Billiard/.2026/componentes_robot.bib) com todas as referências dos componentes eletrônicos/físicos para envio ao orientador.
+
+---
+
+## 3. Aquisição de Vídeo & Rastreamento
+
+- [ ] **Capturar vídeo da trajetória circular**
+  - *Objetivo*: Gravar filmagem demonstrativa do robô realizando uma trajetória perfeitamente circular e estável.
+- [ ] **Executar extração de coordenadas (Frames &rarr; Dados)**
+  - *Objetivo*: Executar a etapa de processamento de imagem nos vídeos para extrair frames e convertê-los em coordenadas de trajetória.
+
+---
+
+## 4. Análise Dinâmica e de Caos
+
+- [x] **Espaço de Fase**
+  - *Objetivo*: Mapear o espaço de fase a partir das colisões detectadas (Concluído).
+- [ ] **Cálculo de Expoente de Lyapunov (Exp Lyap)**
+  - *Objetivo*: Calcular e analisar os expoentes de Lyapunov com base nos dados experimentais das colisões.
+
+---
+
+## 5. Documentação & Escrita do Artigo
+
+- [ ] **Fluxograma do Experimento**
+  - *Objetivo*: Desenvolver o fluxograma contendo as etapas físicas e lógicas do procedimento experimental.
+- [ ] **Redação final e inserção de informações no Artigo**
+  - *Objetivo*: Redigir e integrar as discussões de resultados de Lyapunov, o fluxograma experimental e as referências ao vídeo de trajetória circular no manuscrito LaTeX.
+
+---
+
+## 6. Consolidação e Publicação (GitHub)
+
+- [ ] **Limpeza de arquivos temporários**
+  - *Objetivo*: Executar script de limpeza e remover arquivos residuais redundantes no diretório.
+- [ ] **Configurar Git e Gitignore**
+  - *Objetivo*: Ajustar o arquivo `.gitignore` para omitir dados volumosos ou binários desnecessários.
+- [ ] **Publicação do repositório no GitHub**
+  - *Objetivo*: Subir e organizar os arquivos consolidados em repositório público.
+

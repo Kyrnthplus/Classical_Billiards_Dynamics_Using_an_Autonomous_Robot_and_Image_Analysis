@@ -1,0 +1,9 @@
+# Core scientific and numerical computing libraries
+numpy>=1.26.4,<2.0.0
+scipy>=1.10.0
+
+# Computer vision and image processing
+opencv-python>=4.8.0
+
+# Data visualization and plotting
+matplotlib>=3.7.0
