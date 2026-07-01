@@ -33,8 +33,8 @@ flowchart TD
         A[Robot Initialization] --> B[Trajectory Execution in Billiard]
         C[Video Recording of the Experiment] --> J
     end
-
-    j --> subgraph SoftwarePipeline [Data Processing Pipeline]
+    j -.-> G
+    subgraph SoftwarePipeline [Data Processing Pipeline]
         B --> D[01_frame_extractor: Frame Processing]
         D -->|&nbsp;Time Coordinates <i>x,y,t<i>&nbsp;| E[02_collision_detector: Discontinuity Detection]
         E -->|Collision Times & Vectors| F[03_analysis: Phase Space Reconstruction]
