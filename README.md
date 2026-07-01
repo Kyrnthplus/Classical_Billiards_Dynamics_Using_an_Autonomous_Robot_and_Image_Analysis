@@ -29,21 +29,18 @@ This repository contains the modeling files, schematics, embedded robot control 
 
 ```mermaid
 flowchart TD
-    subgraph physicalexperiment [physical environment & control]
-        a[robot initialization] --> b[trajectory execution in billiard]
-        c[video recording of the experiment] --> j
+    subgraph physicalexperiment [Physical Environment & Control]
+        a[Robot Initialization] --> b[Trajectory Execution in Billiard]
+        c[Video Recording of the Experiment] --> b
     end
 
-    j -.-> g
-
-    subgraph softwarepipeline [data processing pipeline]
-        b --> d[01_frame_extractor: frame processing]
-        d -->|&nbsp;time coordinates <i>x,y,t<i>&nbsp;| e[02_collision_detector: discontinuity detection]
-        e -->|collision times & vectors| f[03_analysis: phase space reconstruction]
-        f --> g[lyapunov exponent <i>&lambda;<i> computation]
+    subgraph softwarepipeline [Data Flow]
+        b --> d[01_frame_extractor: Frame Processing]
+        d -->|&nbsp;Time Coordinates <i>x,y,t<i>&nbsp;| e[02_collision_detector: Discontinuity Detection]
+        e -->|Collision Times & Vectors| f[03_analysis: Phase Space Building]
+        f --> g[Lyapunov Exponent <i>&lambda;<i> Computation]
     end
 
     style physicalexperiment fill:#f9f,stroke:#333,stroke-width:2px
-    style softwarepipeline fill:#bbf,stroke:#333,stroke-width:2px
-
+    style softwarepipeline fill:#bbf,stroke:#333,stroke-width:2px,titleBgColor:#ff972f,titleColor:#fff
 ```
