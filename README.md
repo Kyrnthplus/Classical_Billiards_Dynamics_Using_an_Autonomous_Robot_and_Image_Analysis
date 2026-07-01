@@ -31,10 +31,10 @@ This repository contains the modeling files, schematics, embedded robot control 
 flowchart TD
     subgraph PhysicalExperiment [Physical Environment & Control]
         A[Robot Initialization] --> B[Trajectory Execution in Billiard]
-        C[Video Recording of the Experiment] --> B
+        C[Video Recording of the Experiment] --> G
     end
 
-    subgraph SoftwarePipeline [Data Processing Pipeline]
+    G --> subgraph SoftwarePipeline [Data Processing Pipeline]
         B --> D[01_frame_extractor: Frame Processing]
         D -->|&nbsp;Time Coordinates <i>x,y,t<i>&nbsp;| E[02_collision_detector: Discontinuity Detection]
         E -->|Collision Times & Vectors| F[03_analysis: Phase Space Reconstruction]
