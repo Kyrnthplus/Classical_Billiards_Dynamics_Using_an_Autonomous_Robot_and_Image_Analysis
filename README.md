@@ -36,9 +36,9 @@ flowchart TD
 
     subgraph softwarepipeline [Data Flow]
         b --> d[01_frame_extractor: Frame Processing]
-        d -->|&nbsp;Time Coordinates <i>x,y,t<i>&nbsp;| e[02_collision_detector: Discontinuity Detection]
+        d -->|&nbsp;Time Coordinates <i>x,y,t</i>&nbsp;| e[02_collision_detector: Discontinuity Detection]
         e -->|Collision Times & Vectors| f[03_analysis: Phase Space Building]
-        f --> g[Lyapunov Exponent <i>&lambda;<i> Computation]
+        f --> g[Lyapunov Exponent <i> &lambda; </i> Computation]
     end
 
     style physicalexperiment fill:#f9f,stroke:#333,stroke-width:2px
